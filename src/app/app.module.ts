@@ -8,6 +8,7 @@ import { DecimalPipeComponent } from './pipe/decimal-pipe/decimal-pipe.component
 import { JsonPipeComponent } from './pipe/json-pipe/json-pipe.component';
 import { PercentPipeComponent } from './pipe/percent-pipe/percent-pipe.component';
 import { UpperCasePipeComponent } from './pipe/upper-case-pipe/upper-case-pipe.component';
+import { CurrencyPipeComponent } from './pipe/currency-pipe/currency-pipe.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UpperCasePipeComponent } from './pipe/upper-case-pipe/upper-case-pipe.c
     DecimalPipeComponent,
     JsonPipeComponent,
     PercentPipeComponent,
-    UpperCasePipeComponent
+    UpperCasePipeComponent,
+    CurrencyPipeComponent
   ],
   imports: [
     BrowserModule,
