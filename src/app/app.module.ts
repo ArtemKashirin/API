@@ -10,6 +10,7 @@ import { PercentPipeComponent } from './pipe/percent-pipe/percent-pipe.component
 import { UpperCasePipeComponent } from './pipe/upper-case-pipe/upper-case-pipe.component';
 import { CurrencyPipeComponent } from './pipe/currency-pipe/currency-pipe.component';
 import { KeyValuePipeComponent } from './pipe/key-value-pipe/key-value-pipe.component';
+import { SlicePipeComponent } from './pipe/slice-pipe/slice-pipe.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { KeyValuePipeComponent } from './pipe/key-value-pipe/key-value-pipe.comp
     PercentPipeComponent,
     UpperCasePipeComponent,
     CurrencyPipeComponent,
-    KeyValuePipeComponent
+    KeyValuePipeComponent,
+    SlicePipeComponent
   ],
   imports: [
     BrowserModule,
