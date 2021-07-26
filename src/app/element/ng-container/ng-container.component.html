@@ -1,0 +1,21 @@
+<p><b><a [href] = "this.ngContainer">ng-container</a></b> - чтобы избежать создания лишнего HTML-элемента, можно вместо этого
+  использовать HTML-элемент ng-container. ng-container представляет собой HTML-элемент, к которому можно прикрепить структурную
+  директиву, без необходимости создавать дополнительный элемент только для этого, при этом сам ng-container в DOM не появится. ng-container
+  играет важную роль в которой он служит контейнером для динамического внедрения компонента с HTML-шаблоном в другой компонент.</p>
+
+<!--<div>-->
+<!--  &lt;!&ndash;p - появится в DOM, даже если в массиве не будет ни одного элемента&ndash;&gt;-->
+<!--  <p *ngFor = "let user  of this.users">-->
+<!--    <span>{{ user.firstName }}</span>,-->
+<!--    <span>{{ user.lastName }}</span>,-->
+<!--    <span>{{ user.age }}</span>,-->
+<!--    <span>{{ user.city }}</span>-->
+<!--  </p>-->
+<!--  &lt;!&ndash;ng-container в DOM не появится&ndash;&gt;-->
+<!--  <ng-container *ngFor = "let user  of this.users">-->
+<!--    <span>{{ user.firstName | uppercase }}</span>,-->
+<!--    <span>{{ user.lastName | uppercase }}</span>,-->
+<!--    <span>{{ user.age }}</span>,-->
+<!--    <span>{{ user.city | uppercase }}</span>-->
+<!--  </ng-container>-->
+<!--</div>-->

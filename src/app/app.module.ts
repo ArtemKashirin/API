@@ -14,6 +14,7 @@ import { SlicePipeComponent } from './pipe/slice-pipe/slice-pipe.component';
 import { DatePipeComponent } from './pipe/date-pipe/date-pipe.component';
 import { LowerCasePipeComponent } from './pipe/lower-case-pipe/lower-case-pipe.component';
 import { TitleCasePipeComponent } from './pipe/title-case-pipe/title-case-pipe.component';
+import { NgContainerComponent } from './element/ng-container/ng-container.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TitleCasePipeComponent } from './pipe/title-case-pipe/title-case-pipe.c
     SlicePipeComponent,
     DatePipeComponent,
     LowerCasePipeComponent,
-    TitleCasePipeComponent
+    TitleCasePipeComponent,
+    NgContainerComponent
   ],
   imports: [
     BrowserModule,
