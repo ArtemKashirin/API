@@ -7,6 +7,7 @@ import { AsyncPipeComponent } from './pipe/async-pipe/async-pipe.component';
 import { DecimalPipeComponent } from './pipe/decimal-pipe/decimal-pipe.component';
 import { JsonPipeComponent } from './pipe/json-pipe/json-pipe.component';
 import { PercentPipeComponent } from './pipe/percent-pipe/percent-pipe.component';
+import { UpperCasePipeComponent } from './pipe/upper-case-pipe/upper-case-pipe.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PercentPipeComponent } from './pipe/percent-pipe/percent-pipe.component
     AsyncPipeComponent,
     DecimalPipeComponent,
     JsonPipeComponent,
-    PercentPipeComponent
+    PercentPipeComponent,
+    UpperCasePipeComponent
   ],
   imports: [
     BrowserModule,
