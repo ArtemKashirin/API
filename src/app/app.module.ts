@@ -12,6 +12,7 @@ import { CurrencyPipeComponent } from './pipe/currency-pipe/currency-pipe.compon
 import { KeyValuePipeComponent } from './pipe/key-value-pipe/key-value-pipe.component';
 import { SlicePipeComponent } from './pipe/slice-pipe/slice-pipe.component';
 import { DatePipeComponent } from './pipe/date-pipe/date-pipe.component';
+import { LowerCasePipeComponent } from './pipe/lower-case-pipe/lower-case-pipe.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DatePipeComponent } from './pipe/date-pipe/date-pipe.component';
     CurrencyPipeComponent,
     KeyValuePipeComponent,
     SlicePipeComponent,
-    DatePipeComponent
+    DatePipeComponent,
+    LowerCasePipeComponent
   ],
   imports: [
     BrowserModule,
