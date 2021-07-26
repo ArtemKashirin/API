@@ -11,6 +11,7 @@ import { UpperCasePipeComponent } from './pipe/upper-case-pipe/upper-case-pipe.c
 import { CurrencyPipeComponent } from './pipe/currency-pipe/currency-pipe.component';
 import { KeyValuePipeComponent } from './pipe/key-value-pipe/key-value-pipe.component';
 import { SlicePipeComponent } from './pipe/slice-pipe/slice-pipe.component';
+import { DatePipeComponent } from './pipe/date-pipe/date-pipe.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SlicePipeComponent } from './pipe/slice-pipe/slice-pipe.component';
     UpperCasePipeComponent,
     CurrencyPipeComponent,
     KeyValuePipeComponent,
-    SlicePipeComponent
+    SlicePipeComponent,
+    DatePipeComponent
   ],
   imports: [
     BrowserModule,
