@@ -15,6 +15,8 @@ import { DatePipeComponent } from './pipe/date-pipe/date-pipe.component';
 import { LowerCasePipeComponent } from './pipe/lower-case-pipe/lower-case-pipe.component';
 import { TitleCasePipeComponent } from './pipe/title-case-pipe/title-case-pipe.component';
 import { NgContainerComponent } from './element/ng-container/ng-container.component';
+import { NgContentComponent } from './element/ng-content/ng-content.component';
+import { ClildContentComponent } from './element/ng-content/clild-content/clild-content.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { NgContainerComponent } from './element/ng-container/ng-container.compon
     DatePipeComponent,
     LowerCasePipeComponent,
     TitleCasePipeComponent,
-    NgContainerComponent
+    NgContainerComponent,
+    NgContentComponent,
+    ClildContentComponent
   ],
   imports: [
     BrowserModule,
