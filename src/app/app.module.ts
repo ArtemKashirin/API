@@ -25,6 +25,7 @@ import { InputComponent } from './decorator/input/input.component';
 import { InputChildComponent } from './decorator/Input/input-child/input-child.component';
 import { OutputComponent } from './decorator/output/output.component';
 import { OutputChildComponent } from './decorator/Output/output-child/output-child.component';
+import { SkipSelfComponent } from './decorator/skip-self/skip-self.component';
 
 
 @NgModule({
@@ -52,6 +53,7 @@ import { OutputChildComponent } from './decorator/Output/output-child/output-chi
     InputChildComponent,
     OutputComponent,
     OutputChildComponent,
+    SkipSelfComponent,
   ],
   imports: [
     BrowserModule,
