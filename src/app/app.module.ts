@@ -29,6 +29,7 @@ import { SkipSelfComponent } from './decorator/skip-self/skip-self.component';
 import { ContentChildComponent } from './decorator/content-child/content-child.component';
 import { ChildContentComponent } from './decorator/content-child/child-content/child-content.component';
 import { HostComponent } from './decorator/host/host.component';
+import { NgModuleComponent } from './decorator/ng-module/ng-module.component';
 
 
 @NgModule({
@@ -60,6 +61,7 @@ import { HostComponent } from './decorator/host/host.component';
     ContentChildComponent,
     ChildContentComponent,
     HostComponent,
+    NgModuleComponent,
   ],
   imports: [
     BrowserModule,
