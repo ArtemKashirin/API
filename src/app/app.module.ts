@@ -31,6 +31,7 @@ import { ChildContentComponent } from './decorator/content-child/child-content/c
 import { HostComponent } from './decorator/host/host.component';
 import { NgModuleComponent } from './decorator/ng-module/ng-module.component';
 import { PipeComponent } from './decorator/pipe/pipe.component';
+import { ViewChildComponent } from './decorator/view-child/view-child.component';
 
 
 @NgModule({
@@ -64,6 +65,7 @@ import { PipeComponent } from './decorator/pipe/pipe.component';
     HostComponent,
     NgModuleComponent,
     PipeComponent,
+    ViewChildComponent,
   ],
   imports: [
     BrowserModule,
