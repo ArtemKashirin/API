@@ -21,6 +21,8 @@ import { NgTemplateComponent } from './element/ng-template/ng-template.component
 import { ComponentComponent } from './decorator/component/component.component';
 import { DirectiveComponent } from './decorator/directive/directive.component';
 import { HostListenerComponent } from './decorator/host-listener/host-listener.component';
+import { InputComponent } from './decorator/input/input.component';
+import { InputChildComponent } from './decorator/Input/input-child/input-child.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { HostListenerComponent } from './decorator/host-listener/host-listener.c
     NgTemplateComponent,
     ComponentComponent,
     DirectiveComponent,
-    HostListenerComponent
+    HostListenerComponent,
+    InputComponent,
+    InputChildComponent
   ],
   imports: [
     BrowserModule,
