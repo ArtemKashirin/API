@@ -20,6 +20,7 @@ import { ClildContentComponent } from './element/ng-content/clild-content/clild-
 import { NgTemplateComponent } from './element/ng-template/ng-template.component';
 import { ComponentComponent } from './decorator/component/component.component';
 import { DirectiveComponent } from './decorator/directive/directive.component';
+import { HostListenerComponent } from './decorator/host-listener/host-listener.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { DirectiveComponent } from './decorator/directive/directive.component';
     ClildContentComponent,
     NgTemplateComponent,
     ComponentComponent,
-    DirectiveComponent
+    DirectiveComponent,
+    HostListenerComponent
   ],
   imports: [
     BrowserModule,
