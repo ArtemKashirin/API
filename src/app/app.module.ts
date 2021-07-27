@@ -19,6 +19,7 @@ import { NgContentComponent } from './element/ng-content/ng-content.component';
 import { ClildContentComponent } from './element/ng-content/clild-content/clild-content.component';
 import { NgTemplateComponent } from './element/ng-template/ng-template.component';
 import { ComponentComponent } from './decorator/component/component.component';
+import { DirectiveComponent } from './decorator/directive/directive.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ComponentComponent } from './decorator/component/component.component';
     NgContentComponent,
     ClildContentComponent,
     NgTemplateComponent,
-    ComponentComponent
+    ComponentComponent,
+    DirectiveComponent
   ],
   imports: [
     BrowserModule,
