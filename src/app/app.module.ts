@@ -17,6 +17,7 @@ import { TitleCasePipeComponent } from './pipe/title-case-pipe/title-case-pipe.c
 import { NgContainerComponent } from './element/ng-container/ng-container.component';
 import { NgContentComponent } from './element/ng-content/ng-content.component';
 import { ClildContentComponent } from './element/ng-content/clild-content/clild-content.component';
+import { NgTemplateComponent } from './element/ng-template/ng-template.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ClildContentComponent } from './element/ng-content/clild-content/clild-
     TitleCasePipeComponent,
     NgContainerComponent,
     NgContentComponent,
-    ClildContentComponent
+    ClildContentComponent,
+    NgTemplateComponent
   ],
   imports: [
     BrowserModule,
