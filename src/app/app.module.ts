@@ -23,6 +23,8 @@ import { DirectiveComponent } from './decorator/directive/directive.component';
 import { HostListenerComponent } from './decorator/host-listener/host-listener.component';
 import { InputComponent } from './decorator/input/input.component';
 import { InputChildComponent } from './decorator/Input/input-child/input-child.component';
+import { OutputComponent } from './decorator/output/output.component';
+import { OutputChildComponent } from './decorator/Output/output-child/output-child.component';
 
 
 @NgModule({
@@ -48,6 +50,8 @@ import { InputChildComponent } from './decorator/Input/input-child/input-child.c
     HostListenerComponent,
     InputComponent,
     InputChildComponent,
+    OutputComponent,
+    OutputChildComponent,
   ],
   imports: [
     BrowserModule,
