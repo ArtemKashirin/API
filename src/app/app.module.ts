@@ -18,6 +18,7 @@ import { NgContainerComponent } from './element/ng-container/ng-container.compon
 import { NgContentComponent } from './element/ng-content/ng-content.component';
 import { ClildContentComponent } from './element/ng-content/clild-content/clild-content.component';
 import { NgTemplateComponent } from './element/ng-template/ng-template.component';
+import { ComponentComponent } from './decorator/component/component.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { NgTemplateComponent } from './element/ng-template/ng-template.component
     NgContainerComponent,
     NgContentComponent,
     ClildContentComponent,
-    NgTemplateComponent
+    NgTemplateComponent,
+    ComponentComponent
   ],
   imports: [
     BrowserModule,
