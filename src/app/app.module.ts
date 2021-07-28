@@ -32,6 +32,8 @@ import { HostComponent } from './decorator/host/host.component';
 import { NgModuleComponent } from './decorator/ng-module/ng-module.component';
 import { PipeComponent } from './decorator/pipe/pipe.component';
 import { ViewChildComponent } from './decorator/view-child/view-child.component';
+import { ContentChildrenComponent } from './decorator/content-children/content-children.component';
+import { ContentChildrenChildComponent } from './decorator/content-children/content-children-child/content-children-child.component';
 
 
 @NgModule({
@@ -66,6 +68,8 @@ import { ViewChildComponent } from './decorator/view-child/view-child.component'
     NgModuleComponent,
     PipeComponent,
     ViewChildComponent,
+    ContentChildrenComponent,
+    ContentChildrenChildComponent,
   ],
   imports: [
     BrowserModule,
