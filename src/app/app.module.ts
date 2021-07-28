@@ -34,6 +34,7 @@ import { PipeComponent } from './decorator/pipe/pipe.component';
 import { ViewChildComponent } from './decorator/view-child/view-child.component';
 import { ContentChildrenComponent } from './decorator/content-children/content-children.component';
 import { ContentChildrenChildComponent } from './decorator/content-children/content-children-child/content-children-child.component';
+import { HostBindingComponent } from './decorator/host-binding/host-binding.component';
 
 
 @NgModule({
@@ -70,6 +71,7 @@ import { ContentChildrenChildComponent } from './decorator/content-children/cont
     ViewChildComponent,
     ContentChildrenComponent,
     ContentChildrenChildComponent,
+    HostBindingComponent,
   ],
   imports: [
     BrowserModule,
