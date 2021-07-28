@@ -35,6 +35,7 @@ import { ViewChildComponent } from './decorator/view-child/view-child.component'
 import { ContentChildrenComponent } from './decorator/content-children/content-children.component';
 import { ContentChildrenChildComponent } from './decorator/content-children/content-children-child/content-children-child.component';
 import { HostBindingComponent } from './decorator/host-binding/host-binding.component';
+import { OptionalComponent } from './decorator/optional/optional.component';
 
 
 @NgModule({
@@ -72,6 +73,7 @@ import { HostBindingComponent } from './decorator/host-binding/host-binding.comp
     ContentChildrenComponent,
     ContentChildrenChildComponent,
     HostBindingComponent,
+    OptionalComponent,
   ],
   imports: [
     BrowserModule,
