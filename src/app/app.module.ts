@@ -39,6 +39,7 @@ import { OptionalComponent } from './decorator/optional/optional.component';
 import { SelfComponent } from './decorator/self/self.component';
 import { ViewChildrenComponent } from './decorator/view-children/view-children.component';
 import { InjectComponent } from './decorator/inject/inject.component';
+import { InjectableComponent } from './decorator/injectable/injectable.component';
 
 
 @NgModule({
@@ -80,6 +81,7 @@ import { InjectComponent } from './decorator/inject/inject.component';
     SelfComponent,
     ViewChildrenComponent,
     InjectComponent,
+    InjectableComponent,
   ],
   imports: [
     BrowserModule,
