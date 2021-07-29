@@ -52,6 +52,7 @@ import { AbstractFormGroupDirectiveComponent } from './directive/abstract-form-g
 import { DefaultValueAccessorComponent } from './directive/default-value-accessor/default-value-accessor.component';
 import { FormControlDirectiveComponent } from './directive/form-control-directive/form-control-directive.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import { FormGroupNameComponent } from './directive/form-group-name/form-group-name.component';
 
 
 @NgModule({
@@ -105,6 +106,7 @@ import {ReactiveFormsModule} from "@angular/forms";
     AbstractFormGroupDirectiveComponent,
     DefaultValueAccessorComponent,
     FormControlDirectiveComponent,
+    FormGroupNameComponent,
   ],
   imports: [
     BrowserModule,
