@@ -43,6 +43,7 @@ import { InjectableComponent } from './decorator/injectable/injectable.component
 import { NgClassComponent } from './directive/ng-class/ng-class.component';
 import { NgIfComponent } from './directive/ng-if/ng-if.component';
 import { NgStyleComponent } from './directive/ng-style/ng-style.component';
+import { NgSwitchComponent } from './directive/ng-switch/ng-switch.component';
 
 
 @NgModule({
@@ -88,6 +89,7 @@ import { NgStyleComponent } from './directive/ng-style/ng-style.component';
     NgClassComponent,
     NgIfComponent,
     NgStyleComponent,
+    NgSwitchComponent,
   ],
   imports: [
     BrowserModule,

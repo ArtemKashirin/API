@@ -1,0 +1,15 @@
+<p><b><a [href] = "this.NgSwitch">[NgSwitch]</a></b> - определяет элемент-контейнер, который принимает выражение для сопоставления, в
+  качестве значения атрибута. Внутри элемента-контейнера структурные директивы *ngSwitchCase и *ngSwitchDefault сравнивают переданное
+  выражение NgSwitch с выраженем находящимся в структурных директивых *ngSwitchCase или *ngSwitchDefault.</p>
+<p><b><a [href] = "this.NgSwitchCase">*NgSwitchCase</a></b> - когда выражения совпадают с NgSwitch и NgSwitchCase отображается данный
+  HTML-шаблон. Если несколько выражений совпадают значению выражения отображаются все.</p>
+<p><b><a [href] = "this.NgSwitchDefault">*NgSwitchDefault</a></b> - визуализируется, когда ни одно NgSwitchCase выражение не соответствует
+  NgSwitch выражению. Эта директива должна идти последней, после всех NgSwitchCase.</p>
+
+<!--<div>-->
+<!--  <ng-container [ngSwitch]="this.exp">-->
+<!--    <p *ngSwitchCase="1">1</p>-->
+<!--    <p *ngSwitchCase="2">2</p>-->
+<!--    <p *ngSwitchDefault>Что другое</p>-->
+<!--  </ng-container>-->
+<!--</div>-->
