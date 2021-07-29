@@ -48,6 +48,7 @@ import { NgForOfComponent } from './directive/ng-for-of/ng-for-of.component';
 import { NgComponentOutletComponent } from './directive/ng-component-outlet/ng-component-outlet.component';
 import { NgTemplateOutletComponent } from './directive/ng-template-outlet/ng-template-outlet.component';
 import { NgPluralComponent } from './directive/ng-plural/ng-plural.component';
+import { AbstractFormGroupDirectiveComponent } from './directive/abstract-form-group-directive/abstract-form-group-directive.component';
 
 
 @NgModule({
@@ -98,6 +99,7 @@ import { NgPluralComponent } from './directive/ng-plural/ng-plural.component';
     NgComponentOutletComponent,
     NgTemplateOutletComponent,
     NgPluralComponent,
+    AbstractFormGroupDirectiveComponent,
   ],
   imports: [
     BrowserModule,
