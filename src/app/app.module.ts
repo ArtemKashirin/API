@@ -49,6 +49,7 @@ import { NgComponentOutletComponent } from './directive/ng-component-outlet/ng-c
 import { NgTemplateOutletComponent } from './directive/ng-template-outlet/ng-template-outlet.component';
 import { NgPluralComponent } from './directive/ng-plural/ng-plural.component';
 import { AbstractFormGroupDirectiveComponent } from './directive/abstract-form-group-directive/abstract-form-group-directive.component';
+import { DefaultValueAccessorComponent } from './directive/default-value-accessor/default-value-accessor.component';
 
 
 @NgModule({
@@ -100,6 +101,7 @@ import { AbstractFormGroupDirectiveComponent } from './directive/abstract-form-g
     NgTemplateOutletComponent,
     NgPluralComponent,
     AbstractFormGroupDirectiveComponent,
+    DefaultValueAccessorComponent,
   ],
   imports: [
     BrowserModule,
