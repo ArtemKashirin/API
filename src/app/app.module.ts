@@ -51,10 +51,11 @@ import { NgPluralComponent } from './directive/ng-plural/ng-plural.component';
 import { AbstractFormGroupDirectiveComponent } from './directive/abstract-form-group-directive/abstract-form-group-directive.component';
 import { DefaultValueAccessorComponent } from './directive/default-value-accessor/default-value-accessor.component';
 import { FormControlDirectiveComponent } from './directive/form-control-directive/form-control-directive.component';
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { FormGroupNameComponent } from './directive/form-group-name/form-group-name.component';
 import { MinLengthValidatorComponent } from './directive/min-length-validator/min-length-validator.component';
 import { NgControlStatusGroupComponent } from './directive/ng-control-status-group/ng-control-status-group.component';
+import { NgModelGroupComponent } from './directive/ng-model-group/ng-model-group.component';
 
 
 @NgModule({
@@ -111,11 +112,13 @@ import { NgControlStatusGroupComponent } from './directive/ng-control-status-gro
     FormGroupNameComponent,
     MinLengthValidatorComponent,
     NgControlStatusGroupComponent,
+    NgModelGroupComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
