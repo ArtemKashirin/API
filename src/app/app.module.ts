@@ -54,6 +54,7 @@ import { FormControlDirectiveComponent } from './directive/form-control-directiv
 import {ReactiveFormsModule} from "@angular/forms";
 import { FormGroupNameComponent } from './directive/form-group-name/form-group-name.component';
 import { MinLengthValidatorComponent } from './directive/min-length-validator/min-length-validator.component';
+import { NgControlStatusGroupComponent } from './directive/ng-control-status-group/ng-control-status-group.component';
 
 
 @NgModule({
@@ -109,6 +110,7 @@ import { MinLengthValidatorComponent } from './directive/min-length-validator/mi
     FormControlDirectiveComponent,
     FormGroupNameComponent,
     MinLengthValidatorComponent,
+    NgControlStatusGroupComponent,
   ],
   imports: [
     BrowserModule,
