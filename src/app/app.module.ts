@@ -56,6 +56,7 @@ import { FormGroupNameComponent } from './directive/form-group-name/form-group-n
 import { MinLengthValidatorComponent } from './directive/min-length-validator/min-length-validator.component';
 import { NgControlStatusGroupComponent } from './directive/ng-control-status-group/ng-control-status-group.component';
 import { NgModelGroupComponent } from './directive/ng-model-group/ng-model-group.component';
+import { PatternValidatorComponent } from './directive/pattern-validator/pattern-validator.component';
 
 
 @NgModule({
@@ -113,6 +114,7 @@ import { NgModelGroupComponent } from './directive/ng-model-group/ng-model-group
     MinLengthValidatorComponent,
     NgControlStatusGroupComponent,
     NgModelGroupComponent,
+    PatternValidatorComponent,
   ],
   imports: [
     BrowserModule,
