@@ -41,6 +41,7 @@ import { ViewChildrenComponent } from './decorator/view-children/view-children.c
 import { InjectComponent } from './decorator/inject/inject.component';
 import { InjectableComponent } from './decorator/injectable/injectable.component';
 import { NgClassComponent } from './directive/ng-class/ng-class.component';
+import { NgIfComponent } from './directive/ng-if/ng-if.component';
 
 
 @NgModule({
@@ -84,6 +85,7 @@ import { NgClassComponent } from './directive/ng-class/ng-class.component';
     InjectComponent,
     InjectableComponent,
     NgClassComponent,
+    NgIfComponent,
   ],
   imports: [
     BrowserModule,
