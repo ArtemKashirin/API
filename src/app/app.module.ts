@@ -53,6 +53,7 @@ import { DefaultValueAccessorComponent } from './directive/default-value-accesso
 import { FormControlDirectiveComponent } from './directive/form-control-directive/form-control-directive.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import { FormGroupNameComponent } from './directive/form-group-name/form-group-name.component';
+import { MinLengthValidatorComponent } from './directive/min-length-validator/min-length-validator.component';
 
 
 @NgModule({
@@ -107,6 +108,7 @@ import { FormGroupNameComponent } from './directive/form-group-name/form-group-n
     DefaultValueAccessorComponent,
     FormControlDirectiveComponent,
     FormGroupNameComponent,
+    MinLengthValidatorComponent,
   ],
   imports: [
     BrowserModule,
