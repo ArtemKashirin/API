@@ -50,6 +50,8 @@ import { NgTemplateOutletComponent } from './directive/ng-template-outlet/ng-tem
 import { NgPluralComponent } from './directive/ng-plural/ng-plural.component';
 import { AbstractFormGroupDirectiveComponent } from './directive/abstract-form-group-directive/abstract-form-group-directive.component';
 import { DefaultValueAccessorComponent } from './directive/default-value-accessor/default-value-accessor.component';
+import { FormControlDirectiveComponent } from './directive/form-control-directive/form-control-directive.component';
+import {ReactiveFormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -102,10 +104,12 @@ import { DefaultValueAccessorComponent } from './directive/default-value-accesso
     NgPluralComponent,
     AbstractFormGroupDirectiveComponent,
     DefaultValueAccessorComponent,
+    FormControlDirectiveComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
