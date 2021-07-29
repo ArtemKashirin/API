@@ -46,6 +46,7 @@ import { NgStyleComponent } from './directive/ng-style/ng-style.component';
 import { NgSwitchComponent } from './directive/ng-switch/ng-switch.component';
 import { NgForOfComponent } from './directive/ng-for-of/ng-for-of.component';
 import { NgComponentOutletComponent } from './directive/ng-component-outlet/ng-component-outlet.component';
+import { NgTemplateOutletComponent } from './directive/ng-template-outlet/ng-template-outlet.component';
 
 
 @NgModule({
@@ -94,6 +95,7 @@ import { NgComponentOutletComponent } from './directive/ng-component-outlet/ng-c
     NgSwitchComponent,
     NgForOfComponent,
     NgComponentOutletComponent,
+    NgTemplateOutletComponent,
   ],
   imports: [
     BrowserModule,
