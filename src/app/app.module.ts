@@ -61,6 +61,7 @@ import { RequiredValidatorComponent } from './directive/required-validator/requi
 import { CheckboxControlValueAccessorComponent } from './directive/checkbox-control-value-accessor/checkbox-control-value-accessor.component';
 import { EmailValidatorComponent } from './directive/email-validator/email-validator.component';
 import { FormControlNameComponent } from './directive/form-control-name/form-control-name.component';
+import { MaxLengthValidatorComponent } from './directive/max-length-validator/max-length-validator.component';
 
 
 @NgModule({
@@ -123,6 +124,7 @@ import { FormControlNameComponent } from './directive/form-control-name/form-con
     CheckboxControlValueAccessorComponent,
     EmailValidatorComponent,
     FormControlNameComponent,
+    MaxLengthValidatorComponent,
   ],
   imports: [
     BrowserModule,
