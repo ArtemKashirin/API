@@ -63,6 +63,7 @@ import { EmailValidatorComponent } from './directive/email-validator/email-valid
 import { FormControlNameComponent } from './directive/form-control-name/form-control-name.component';
 import { MaxLengthValidatorComponent } from './directive/max-length-validator/max-length-validator.component';
 import { MinValidatorComponent } from './directive/min-validator/min-validator.component';
+import { NgFormComponent } from './directive/ng-form/ng-form.component';
 
 
 @NgModule({
@@ -127,6 +128,7 @@ import { MinValidatorComponent } from './directive/min-validator/min-validator.c
     FormControlNameComponent,
     MaxLengthValidatorComponent,
     MinValidatorComponent,
+    NgFormComponent,
   ],
   imports: [
     BrowserModule,
