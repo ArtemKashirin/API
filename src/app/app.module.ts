@@ -65,6 +65,7 @@ import { MaxLengthValidatorComponent } from './directive/max-length-validator/ma
 import { MinValidatorComponent } from './directive/min-validator/min-validator.component';
 import { NgFormComponent } from './directive/ng-form/ng-form.component';
 import { NgSelectOptionComponent } from './directive/ng-select-option/ng-select-option.component';
+import { RadioControlValueAccessorComponent } from './directive/radio-control-value-accessor/radio-control-value-accessor.component';
 
 
 @NgModule({
@@ -131,6 +132,7 @@ import { NgSelectOptionComponent } from './directive/ng-select-option/ng-select-
     MinValidatorComponent,
     NgFormComponent,
     NgSelectOptionComponent,
+    RadioControlValueAccessorComponent,
   ],
   imports: [
     BrowserModule,
