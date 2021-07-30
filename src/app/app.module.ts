@@ -73,6 +73,7 @@ import { FormGroupDirectiveComponent } from './directive/form-group-directive/fo
 import { MaxValidatorComponent } from './directive/max-validator/max-validator.component';
 import { NgControlStatusComponent } from './directive/ng-control-status/ng-control-status.component';
 import { NgModelComponent } from './directive/ng-model/ng-model.component';
+import { NumberValueAccessorComponent } from './directive/number-value-accessor/number-value-accessor.component';
 
 
 @NgModule({
@@ -147,6 +148,7 @@ import { NgModelComponent } from './directive/ng-model/ng-model.component';
     MaxValidatorComponent,
     NgControlStatusComponent,
     NgModelComponent,
+    NumberValueAccessorComponent,
   ],
   imports: [
     BrowserModule,
