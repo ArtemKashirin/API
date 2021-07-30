@@ -64,6 +64,7 @@ import { FormControlNameComponent } from './directive/form-control-name/form-con
 import { MaxLengthValidatorComponent } from './directive/max-length-validator/max-length-validator.component';
 import { MinValidatorComponent } from './directive/min-validator/min-validator.component';
 import { NgFormComponent } from './directive/ng-form/ng-form.component';
+import { NgSelectOptionComponent } from './directive/ng-select-option/ng-select-option.component';
 
 
 @NgModule({
@@ -129,6 +130,7 @@ import { NgFormComponent } from './directive/ng-form/ng-form.component';
     MaxLengthValidatorComponent,
     MinValidatorComponent,
     NgFormComponent,
+    NgSelectOptionComponent,
   ],
   imports: [
     BrowserModule,
