@@ -60,6 +60,7 @@ import { PatternValidatorComponent } from './directive/pattern-validator/pattern
 import { RequiredValidatorComponent } from './directive/required-validator/required-validator.component';
 import { CheckboxControlValueAccessorComponent } from './directive/checkbox-control-value-accessor/checkbox-control-value-accessor.component';
 import { EmailValidatorComponent } from './directive/email-validator/email-validator.component';
+import { FormControlNameComponent } from './directive/form-control-name/form-control-name.component';
 
 
 @NgModule({
@@ -121,6 +122,7 @@ import { EmailValidatorComponent } from './directive/email-validator/email-valid
     RequiredValidatorComponent,
     CheckboxControlValueAccessorComponent,
     EmailValidatorComponent,
+    FormControlNameComponent,
   ],
   imports: [
     BrowserModule,
