@@ -75,6 +75,7 @@ import { NgControlStatusComponent } from './directive/ng-control-status/ng-contr
 import { NgModelComponent } from './directive/ng-model/ng-model.component';
 import { NumberValueAccessorComponent } from './directive/number-value-accessor/number-value-accessor.component';
 import { RangeValueAccessorComponent } from './directive/range-value-accessor/range-value-accessor.component';
+import { SelectMultipleControlValueAccessorComponent } from './directive/select-multiple-control-value-accessor/select-multiple-control-value-accessor.component';
 
 
 @NgModule({
@@ -151,6 +152,7 @@ import { RangeValueAccessorComponent } from './directive/range-value-accessor/ra
     NgModelComponent,
     NumberValueAccessorComponent,
     RangeValueAccessorComponent,
+    SelectMultipleControlValueAccessorComponent,
   ],
   imports: [
     BrowserModule,
