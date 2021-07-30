@@ -74,6 +74,7 @@ import { MaxValidatorComponent } from './directive/max-validator/max-validator.c
 import { NgControlStatusComponent } from './directive/ng-control-status/ng-control-status.component';
 import { NgModelComponent } from './directive/ng-model/ng-model.component';
 import { NumberValueAccessorComponent } from './directive/number-value-accessor/number-value-accessor.component';
+import { RangeValueAccessorComponent } from './directive/range-value-accessor/range-value-accessor.component';
 
 
 @NgModule({
@@ -149,6 +150,7 @@ import { NumberValueAccessorComponent } from './directive/number-value-accessor/
     NgControlStatusComponent,
     NgModelComponent,
     NumberValueAccessorComponent,
+    RangeValueAccessorComponent,
   ],
   imports: [
     BrowserModule,
