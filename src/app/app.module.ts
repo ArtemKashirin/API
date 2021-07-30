@@ -66,6 +66,7 @@ import { MinValidatorComponent } from './directive/min-validator/min-validator.c
 import { NgFormComponent } from './directive/ng-form/ng-form.component';
 import { NgSelectOptionComponent } from './directive/ng-select-option/ng-select-option.component';
 import { RadioControlValueAccessorComponent } from './directive/radio-control-value-accessor/radio-control-value-accessor.component';
+import { SelectControlValueAccessorComponent } from './directive/select-control-value-accessor/select-control-value-accessor.component';
 
 
 @NgModule({
@@ -133,6 +134,7 @@ import { RadioControlValueAccessorComponent } from './directive/radio-control-va
     NgFormComponent,
     NgSelectOptionComponent,
     RadioControlValueAccessorComponent,
+    SelectControlValueAccessorComponent,
   ],
   imports: [
     BrowserModule,
