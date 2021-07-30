@@ -71,6 +71,7 @@ import { CheckboxRequiredValidatorComponent } from './directive/checkbox-require
 import { FormArrayNameComponent } from './directive/form-array-name/form-array-name.component';
 import { FormGroupDirectiveComponent } from './directive/form-group-directive/form-group-directive.component';
 import { MaxValidatorComponent } from './directive/max-validator/max-validator.component';
+import { NgControlStatusComponent } from './directive/ng-control-status/ng-control-status.component';
 
 
 @NgModule({
@@ -143,6 +144,7 @@ import { MaxValidatorComponent } from './directive/max-validator/max-validator.c
     FormArrayNameComponent,
     FormGroupDirectiveComponent,
     MaxValidatorComponent,
+    NgControlStatusComponent,
   ],
   imports: [
     BrowserModule,
