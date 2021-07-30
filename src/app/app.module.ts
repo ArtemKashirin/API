@@ -70,6 +70,7 @@ import { SelectControlValueAccessorComponent } from './directive/select-control-
 import { CheckboxRequiredValidatorComponent } from './directive/checkbox-required-validator/checkbox-required-validator.component';
 import { FormArrayNameComponent } from './directive/form-array-name/form-array-name.component';
 import { FormGroupDirectiveComponent } from './directive/form-group-directive/form-group-directive.component';
+import { MaxValidatorComponent } from './directive/max-validator/max-validator.component';
 
 
 @NgModule({
@@ -141,6 +142,7 @@ import { FormGroupDirectiveComponent } from './directive/form-group-directive/fo
     CheckboxRequiredValidatorComponent,
     FormArrayNameComponent,
     FormGroupDirectiveComponent,
+    MaxValidatorComponent,
   ],
   imports: [
     BrowserModule,
