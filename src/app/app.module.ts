@@ -69,6 +69,7 @@ import { RadioControlValueAccessorComponent } from './directive/radio-control-va
 import { SelectControlValueAccessorComponent } from './directive/select-control-value-accessor/select-control-value-accessor.component';
 import { CheckboxRequiredValidatorComponent } from './directive/checkbox-required-validator/checkbox-required-validator.component';
 import { FormArrayNameComponent } from './directive/form-array-name/form-array-name.component';
+import { FormGroupDirectiveComponent } from './directive/form-group-directive/form-group-directive.component';
 
 
 @NgModule({
@@ -139,6 +140,7 @@ import { FormArrayNameComponent } from './directive/form-array-name/form-array-n
     SelectControlValueAccessorComponent,
     CheckboxRequiredValidatorComponent,
     FormArrayNameComponent,
+    FormGroupDirectiveComponent,
   ],
   imports: [
     BrowserModule,
