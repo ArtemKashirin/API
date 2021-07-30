@@ -67,6 +67,7 @@ import { NgFormComponent } from './directive/ng-form/ng-form.component';
 import { NgSelectOptionComponent } from './directive/ng-select-option/ng-select-option.component';
 import { RadioControlValueAccessorComponent } from './directive/radio-control-value-accessor/radio-control-value-accessor.component';
 import { SelectControlValueAccessorComponent } from './directive/select-control-value-accessor/select-control-value-accessor.component';
+import { CheckboxRequiredValidatorComponent } from './directive/checkbox-required-validator/checkbox-required-validator.component';
 
 
 @NgModule({
@@ -135,6 +136,7 @@ import { SelectControlValueAccessorComponent } from './directive/select-control-
     NgSelectOptionComponent,
     RadioControlValueAccessorComponent,
     SelectControlValueAccessorComponent,
+    CheckboxRequiredValidatorComponent,
   ],
   imports: [
     BrowserModule,
