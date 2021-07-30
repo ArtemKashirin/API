@@ -72,6 +72,7 @@ import { FormArrayNameComponent } from './directive/form-array-name/form-array-n
 import { FormGroupDirectiveComponent } from './directive/form-group-directive/form-group-directive.component';
 import { MaxValidatorComponent } from './directive/max-validator/max-validator.component';
 import { NgControlStatusComponent } from './directive/ng-control-status/ng-control-status.component';
+import { NgModelComponent } from './directive/ng-model/ng-model.component';
 
 
 @NgModule({
@@ -145,6 +146,7 @@ import { NgControlStatusComponent } from './directive/ng-control-status/ng-contr
     FormGroupDirectiveComponent,
     MaxValidatorComponent,
     NgControlStatusComponent,
+    NgModelComponent,
   ],
   imports: [
     BrowserModule,
