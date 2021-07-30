@@ -58,6 +58,7 @@ import { NgControlStatusGroupComponent } from './directive/ng-control-status-gro
 import { NgModelGroupComponent } from './directive/ng-model-group/ng-model-group.component';
 import { PatternValidatorComponent } from './directive/pattern-validator/pattern-validator.component';
 import { RequiredValidatorComponent } from './directive/required-validator/required-validator.component';
+import { CheckboxControlValueAccessorComponent } from './directive/checkbox-control-value-accessor/checkbox-control-value-accessor.component';
 
 
 @NgModule({
@@ -117,6 +118,7 @@ import { RequiredValidatorComponent } from './directive/required-validator/requi
     NgModelGroupComponent,
     PatternValidatorComponent,
     RequiredValidatorComponent,
+    CheckboxControlValueAccessorComponent,
   ],
   imports: [
     BrowserModule,
