@@ -59,6 +59,7 @@ import { NgModelGroupComponent } from './directive/ng-model-group/ng-model-group
 import { PatternValidatorComponent } from './directive/pattern-validator/pattern-validator.component';
 import { RequiredValidatorComponent } from './directive/required-validator/required-validator.component';
 import { CheckboxControlValueAccessorComponent } from './directive/checkbox-control-value-accessor/checkbox-control-value-accessor.component';
+import { EmailValidatorComponent } from './directive/email-validator/email-validator.component';
 
 
 @NgModule({
@@ -119,6 +120,7 @@ import { CheckboxControlValueAccessorComponent } from './directive/checkbox-cont
     PatternValidatorComponent,
     RequiredValidatorComponent,
     CheckboxControlValueAccessorComponent,
+    EmailValidatorComponent,
   ],
   imports: [
     BrowserModule,
