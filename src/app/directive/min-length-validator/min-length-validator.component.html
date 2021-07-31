@@ -1,7 +1,53 @@
-<p><b><a [href] = "this.MinLengthValidator">MinLengthValidator</a></b> - добавляет проверку минимальной длины для элементов управления,
-  отмеченных minlength атрибутом.</p>
-
+<p><a [href] = "this.MinLengthValidator">MinLengthValidator</a> - атрибут: <i>minlength</i> - проверка минимальной длинны. Используется с
+  директивами formControlName, formControl, ngModel.</p>
 <!--<div>-->
-<!--  <input type="text" [formControl]="this.control1" minlength="4">-->
-<!--  <p>{{ this.control1.errors | json }}</p>-->
+<!--  <input type="text" [formControl]="this.minLV" minlength="4">-->
+<!--  <p>{{ this.minLV.errors | json }}</p>-->
+<!--</div>-->
+
+<p><a [href] = "this.MaxLengthValidator">MaxLengthValidator</a> - атрибут: <i>maxlength</i> - проверка максимальной длинны. Используется с
+  директивами formControlName, formControl, ngModel.</p>
+<!--<div>-->
+<!--  <input type = "text" [formControl]="this.maxLV" maxlength="4">-->
+<!--  <p>{{ this.maxLV.errors | json }}</p>-->
+<!--</div>-->
+
+<p><a [href] = "this.MinValidator">MinValidator</a> - атрибут: <i>min</i> - устанавливает минимальное значение для HTML-элемента input с
+  атрибутом type="number". Используется с вышеуказанным HTML-элементом и атрибутом, и директивами formControlName, formControl, ngModel.</p>
+<!--<div>-->
+<!--  <input type = "number" [formControl]="this.minV" min="2">-->
+<!--</div>-->
+
+<p><a [href] = "this.MaxValidator">MaxValidator</a> - атрибут: <i>max</i> - устанавливает максимальное значение для HTML-элемента input с
+  атрибутом type="number". Используется с вышеуказанным HTML-элементом и атрибутом, и директивами formControlName, formControl, ngModel.</p>
+<!--<div >-->
+<!--  <input type = "number" [formControl] = "this.maxV">-->
+<!--</div>-->
+
+<p><a [href] = "this.PatternValidator">PatternValidator</a> - атрибут: <i>pattern</i> - добавляет проверку вводимого значения регулярного
+  выражения. Используется с директивами formControlName, formControl, ngModel.</p>
+<!--<div>-->
+<!--  <input type = "text" [formControl]="this.patV" pattern="[a-zA-Z]">-->
+<!--  <p>{{ this.patV.errors | json }}</p>-->
+<!--</div>-->
+
+<p><a [href] = "this.RequiredValidator">RequiredValidator</a> - атрибут: <i>required</i> - добовляет проверку на обязательный ввод значения.
+ Применяется без атрибута: <i>type=checkbox</i> и используется с директивами formControlName, formControl, ngModel.</p>
+<!--<div>-->
+<!--  <input type = "text" [formControl]="this.reqV" required >-->
+<!--  <p>{{ this.reqV.errors | json }}</p>-->
+<!--</div>-->
+
+<p><a [href] = "this.EmailValidator">EmailValidator</a> - атрибут: <i>email</i> - добовляет проверку на ввод email.
+  Применяется к атрибуту: <i>type=email</i> и используется с директивами formControlName, formControl, ngModel.</p>
+<!--<div>-->
+<!--  <input type = "email" email [formControl]="this.emailV">-->
+<!--  <p>{{ this.emailV.errors | json }}</p>-->
+<!--</div>-->
+
+<p><a [href] = "this.CheckboxRequiredValidator">CheckboxRequiredValidator</a> - атрибут: <i>required</i> - добовляет проверку на обязательный
+  выбор checkbox. Применяется с атрибутом: <i>type=checkbox</i> и используется с директивами formControlName, formControl, ngModel.</p>
+<!--<div>-->
+<!--  <input type = "checkbox" [formControl]="this.checkBRV" required>-->
+<!--  <p>{{ this.checkBRV.errors | json }}</p>-->
 <!--</div>-->

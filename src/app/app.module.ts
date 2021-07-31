@@ -56,26 +56,13 @@ import { FormGroupNameComponent } from './directive/form-group-name/form-group-n
 import { MinLengthValidatorComponent } from './directive/min-length-validator/min-length-validator.component';
 import { NgControlStatusGroupComponent } from './directive/ng-control-status-group/ng-control-status-group.component';
 import { NgModelGroupComponent } from './directive/ng-model-group/ng-model-group.component';
-import { PatternValidatorComponent } from './directive/pattern-validator/pattern-validator.component';
-import { RequiredValidatorComponent } from './directive/required-validator/required-validator.component';
-import { CheckboxControlValueAccessorComponent } from './directive/checkbox-control-value-accessor/checkbox-control-value-accessor.component';
-import { EmailValidatorComponent } from './directive/email-validator/email-validator.component';
 import { FormControlNameComponent } from './directive/form-control-name/form-control-name.component';
-import { MaxLengthValidatorComponent } from './directive/max-length-validator/max-length-validator.component';
-import { MinValidatorComponent } from './directive/min-validator/min-validator.component';
 import { NgFormComponent } from './directive/ng-form/ng-form.component';
 import { NgSelectOptionComponent } from './directive/ng-select-option/ng-select-option.component';
-import { RadioControlValueAccessorComponent } from './directive/radio-control-value-accessor/radio-control-value-accessor.component';
-import { SelectControlValueAccessorComponent } from './directive/select-control-value-accessor/select-control-value-accessor.component';
-import { CheckboxRequiredValidatorComponent } from './directive/checkbox-required-validator/checkbox-required-validator.component';
 import { FormArrayNameComponent } from './directive/form-array-name/form-array-name.component';
 import { FormGroupDirectiveComponent } from './directive/form-group-directive/form-group-directive.component';
-import { MaxValidatorComponent } from './directive/max-validator/max-validator.component';
 import { NgControlStatusComponent } from './directive/ng-control-status/ng-control-status.component';
 import { NgModelComponent } from './directive/ng-model/ng-model.component';
-import { NumberValueAccessorComponent } from './directive/number-value-accessor/number-value-accessor.component';
-import { RangeValueAccessorComponent } from './directive/range-value-accessor/range-value-accessor.component';
-import { SelectMultipleControlValueAccessorComponent } from './directive/select-multiple-control-value-accessor/select-multiple-control-value-accessor.component';
 
 
 @NgModule({
@@ -133,26 +120,14 @@ import { SelectMultipleControlValueAccessorComponent } from './directive/select-
     MinLengthValidatorComponent,
     NgControlStatusGroupComponent,
     NgModelGroupComponent,
-    PatternValidatorComponent,
-    RequiredValidatorComponent,
-    CheckboxControlValueAccessorComponent,
-    EmailValidatorComponent,
+
     FormControlNameComponent,
-    MaxLengthValidatorComponent,
-    MinValidatorComponent,
     NgFormComponent,
     NgSelectOptionComponent,
-    RadioControlValueAccessorComponent,
-    SelectControlValueAccessorComponent,
-    CheckboxRequiredValidatorComponent,
     FormArrayNameComponent,
     FormGroupDirectiveComponent,
-    MaxValidatorComponent,
     NgControlStatusComponent,
     NgModelComponent,
-    NumberValueAccessorComponent,
-    RangeValueAccessorComponent,
-    SelectMultipleControlValueAccessorComponent,
   ],
   imports: [
     BrowserModule,

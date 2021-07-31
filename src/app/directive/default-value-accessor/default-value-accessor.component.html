@@ -1,4 +1,24 @@
-<p><b><a [href] = "this.DefaultValueAccessor">DefaultValueAccessor</a></b> - является значением по умолчанию ControlValueAccessor, для
-  записи и прослушивания изменений в элеменнтах input. DefaultValueAccessor используется для FormControlDirective, FormControlName и
-  NgModel. DefaultValueAccessor автоматически применяется при использовании директив  [formControlName], [formControl],
-  [ngModel] и [ngDefaultControl] неявно или можно явно применить для пользовательских элементов ввода [ngDefaultControl].</p>
+<p><a [href] = "this.ControlValueAccessor">ControlValueAccessor</a> - интерфейс, который действует как мост между формами и кастомным элементом по типу input. При этом,
+такому элементу(если вдруг нехватает нативного HTML-элемента),  можно присвоить значение по умолчанию  при помощи селектора:
+  <i>ngDefaultControl</i>.</p>
+<p><a [href] = "this.DefaultValueAccessor">DefaultValueAccessor</a> - атрибут: <i>ngDefaultControl</i> - аксессор, используется для записи
+  значения и прослушивания изменений в HTML-элементе input с атрибутом type="text". Используется с вышеуказанным HTML-элементом и
+  атрибутом, и директивами formControlName, formControl, ngModel.</p>
+<p><a [href] = "this.CheckboxControlValueAccessor">CheckboxControlValueAccessor</a> - аксессор, используется автоматически для записи
+  значения и прослушивания изменений в HTML-элементе input с атрибутом type="checkbox". Используется с вышеуказанным HTML-элементом и
+  атрибутом, и директивами formControlName, formControl, ngModel.</p>
+<p><a [href] = "this.NumberValueAccessor">NumberValueAccessor</a> - аксессор, используется автоматически для записи значения и прослушивания
+  изменений в HTML-элементе input с атрибутом type="number". Используется с вышеуказанным HTML-элементом и атрибутом, и директивами
+  formControlName, formControl, ngModel.</p>
+<p><a [href] = "this.RadioControlValueAccessor">RadioControlValueAccessor</a> - аксессор, используется автоматически для записи значения и
+  прослушивания изменений в HTML-элементе input с атрибутом type="radio". Используется с вышеуказанным HTML-элементом и атрибутом, и
+  директивами formControlName, formControl, ngModel.</p>
+<p><a [href] = "this.RangeValueAccessor">RangeValueAccessor</a> - аксессор, используется автоматически для записи значения и
+  прослушивания изменений в HTML-элементе input с атрибутом type="range". Используется с вышеуказанным HTML-элементом и атрибутом, и
+  директивами formControlName, formControl, ngModel.</p>
+<p><a [href] = "this.SelectControlValueAccessor">SelectControlValueAccessor</a> - аксессор, используется автоматически для записи значения и
+  прослушивания изменений в HTML-элементе select. Используется с вышеуказанным HTML-элементом без атрибута: <i>multiple]</i>, и
+  директивами formControlName, formControl, ngModel.</p>
+<p><a [href] = "this.SelectMultipleControlValueAccessor">SelectMultipleControlValueAccessor</a> - атрибут: <i>multiple</i>  - аксессор,
+  используется для записи значений и прослушивания изменений в HTML-элементах select с множественным выбором. Используется с
+  вышеуказанным HTML-элементом и селектором, и директивами formControlName, formControl, ngModel.</p>

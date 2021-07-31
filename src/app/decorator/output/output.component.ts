@@ -13,7 +13,7 @@ export class OutputComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log(this.res)
+    // console.log(this.res)
   }
 
   outputRes($event: string | number) {

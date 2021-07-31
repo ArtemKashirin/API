@@ -16,7 +16,10 @@ export class NgFormComponent implements OnInit {
   }
 
   log(form: any) {
-    console.log(form)
+    // console.log(form)
+    // console.log(form.submitted);
+    console.log(form.control);
+    // console.log(form.controls);
 
   }
 }

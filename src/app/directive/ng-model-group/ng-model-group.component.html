@@ -1,24 +1,22 @@
-<p><b><a [href] = "this.NgModelGroup">NgModelGroup</a></b> - создает и привязывает FormGroup экземпляр к элементу DOM. Эта директива может
-  использоваться только как дочерняя для NgForm(внутри form тегов). Используйте эту директиву для проверки подгруппы вашей формы отдельно
-  от остальной формы, или если некоторые значения в вашей модели предметной области имеют больше смысла использовать вместе во
-  вложенном объекте. Укажите имя подгруппы, и оно станет ключом для подгруппы в полном значении формы. Если вам нужен прямой доступ,
-  экспортируйте директиву в локальную переменную шаблона, используя ngModelGroup(например:) .#myGroup="ngModelGroup". Унаследовал
-методы и свойства AbstractFormGroupDirective, ControlContainer и AbstractControlDirective.</p>
+<p><a [href] = "this.NgModelGroup">NgModelGroup</a> - атрибут: <i>ngModelGroup</i> - данная директива может использоваться как дочерняя
+  для NgForm внутри HTML-элемента form. Создает NgModelGroup экземпляр класса и привязывает к элементу DOM. При указании имени подгруппы,
+  это имя становится ключом для этой подгруппы. Для наглядности, что находится в ngModelGroup возможно локальной перемененной передать
+  директиву ngModelGroup( #myTemplateVar="ngModelGroup").
+</p>
 
-<!--
-<div>
-  <form #f = "ngForm" (ngSubmit) = "this.onSubmit(f, nameCtrl)">
-    <p *ngIf="nameCtrl.invalid">Name is invalid.</p>
 
-    <div ngModelGroup="name" #nameCtrl="ngModelGroup">
-      <input name="first" [ngModel]="name.first" minlength="2">
-      <input name="last" [ngModel]="name.last" required>
-    </div>
+<!--<div>-->
+<!--  <form ngForm (ngSubmit) = "this.onSubmit(nameCtrl)">-->
+<!--    <div ngModelGroup = "name" #nameCtrl = "ngModelGroup">-->
+<!--      <input name = "first" [ngModel] = "name.first" minlength = "2">-->
+<!--      <input name = "last" [ngModel] = "name.last" required>-->
+<!--    </div>-->
 
-    <input name="email" ngModel>
-    <button>Submit</button>
-  </form>
+<!--    <input name = "email" ngModel>-->
+<!--    <button>Submit</button>-->
+<!--  </form>-->
 
-  <button (click)="setValue()">Set value</button>
-</div>
--->
+<!--  <button (click) = "setValue()">Set value</button>-->
+<!--</div>-->
+
+

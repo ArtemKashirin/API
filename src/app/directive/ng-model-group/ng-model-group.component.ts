@@ -18,8 +18,7 @@ export class NgModelGroupComponent implements OnInit {
 
 
 
-  onSubmit(f: NgForm, a:NgModelGroup) {
-    console.log(f)
+  onSubmit( a:NgModelGroup) {
     console.log(a)
   }
 

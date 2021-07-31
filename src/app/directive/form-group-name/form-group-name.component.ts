@@ -19,7 +19,7 @@ export class FormGroupNameComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log(this.form);
+    // console.log(this.form);
   }
 
 }
