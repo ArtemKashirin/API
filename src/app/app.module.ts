@@ -63,6 +63,7 @@ import { FormArrayNameComponent } from './directive/form-array-name/form-array-n
 import { FormGroupDirectiveComponent } from './directive/form-group-directive/form-group-directive.component';
 import { NgControlStatusComponent } from './directive/ng-control-status/ng-control-status.component';
 import { NgModelComponent } from './directive/ng-model/ng-model.component';
+import { RouterLinkComponent } from './directive/router-link/router-link.component';
 
 
 @NgModule({
@@ -120,7 +121,6 @@ import { NgModelComponent } from './directive/ng-model/ng-model.component';
     MinLengthValidatorComponent,
     NgControlStatusGroupComponent,
     NgModelGroupComponent,
-
     FormControlNameComponent,
     NgFormComponent,
     NgSelectOptionComponent,
@@ -128,6 +128,7 @@ import { NgModelComponent } from './directive/ng-model/ng-model.component';
     FormGroupDirectiveComponent,
     NgControlStatusComponent,
     NgModelComponent,
+    RouterLinkComponent,
   ],
   imports: [
     BrowserModule,
