@@ -65,6 +65,7 @@ import { NgControlStatusComponent } from './directive/ng-control-status/ng-contr
 import { NgModelComponent } from './directive/ng-model/ng-model.component';
 import { RouterLinkComponent } from './directive/router-link/router-link.component';
 import { RouterLinkActiveComponent } from './directive/router-link-active/router-link-active.component';
+import { RouterLinkWithHrefComponent } from './directive/router-link-with-href/router-link-with-href.component';
 
 
 @NgModule({
@@ -131,6 +132,7 @@ import { RouterLinkActiveComponent } from './directive/router-link-active/router
     NgModelComponent,
     RouterLinkComponent,
     RouterLinkActiveComponent,
+    RouterLinkWithHrefComponent,
   ],
   imports: [
     BrowserModule,
