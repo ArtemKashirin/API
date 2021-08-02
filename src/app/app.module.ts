@@ -64,6 +64,7 @@ import { FormGroupDirectiveComponent } from './directive/form-group-directive/fo
 import { NgControlStatusComponent } from './directive/ng-control-status/ng-control-status.component';
 import { NgModelComponent } from './directive/ng-model/ng-model.component';
 import { RouterLinkComponent } from './directive/router-link/router-link.component';
+import { RouterLinkActiveComponent } from './directive/router-link-active/router-link-active.component';
 
 
 @NgModule({
@@ -129,6 +130,7 @@ import { RouterLinkComponent } from './directive/router-link/router-link.compone
     NgControlStatusComponent,
     NgModelComponent,
     RouterLinkComponent,
+    RouterLinkActiveComponent,
   ],
   imports: [
     BrowserModule,
