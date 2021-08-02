@@ -1,0 +1,107 @@
+<p><a [href] = "this.AbstractControl">AbstractControl</a> - абстрактный базовый класс от которого наследуются FormControl, FormGroup и
+  FormArray. Он обеспечивает некоторое общее поведение, присущее всем элементам управления и группам элементов управления, например запуск
+  валидаторов, вычисление статуса и сброс состояния. Он также определяет свойства, которые делятся между всеми подклассами, как
+  value, valid и dirty.</p>
+
+<!--<div>-->
+<!--  <ul>-->
+<!--    <li><i>value: any</i> - чтение, возвращает текущее значение элемента;</li>-->
+<!--    <li><i>validator: ValidatorFn | null</i> - функция, которая синхронно валендирует значение в элементе;</li>-->
+<!--    <li><i>asyncValidator: AsyncValidatorFn | null</i> - чтение, функция, которая асинхронно валендирует значение в элементе;</li>-->
+<!--    <li><i>parent: FormGroup | FormArray | null</i> - чтение, возвращает родителя элемента;</li>-->
+<!--    <li><i>status: string</i> - чтение, статус проверки элемента: VALID - элемент прошел все проверки, INVALID - элемент не прошел хотябы-->
+<!--      одну проверку, PENDING - элемент находится в процессе проверки, DISABLED - элемент не подлежит проверка;-->
+<!--    </li>-->
+<!--    <li><i>valid: boolean</i> - чтение, элемент со status: VALID;</li>-->
+<!--    <li><i>invalid: boolean</i> - чтение, элемент со status: INVALID;</li>-->
+<!--    <li><i>pending: boolean</i> - чтение, элемент со status: PENDING;</li>-->
+<!--    <li><i>disabled: boolean</i> - чтение, элемент со status: DISABLED;</li>-->
+<!--    <li><i>enabled: boolean</i> - чтение, true если элемент со status: VALID, INVALID, PENDING;</li>-->
+<!--    <li><i>errors: ValidationErrors | null</i> - чтение, возвращает объект содержащий ошибки при валидации элемента;</li>-->
+<!--    <li><i>pristine: boolean</i> - чтение, возвращает логический тип если значение элемента не изменено;</li>-->
+<!--    <li><i>dirty: boolean</i> - чтение, возвращает логическое значение если значение элемента изменено;</li>-->
+<!--    <li><i>touched: boolean</i> - чтение, возвращает логическое значение если было иницировано событие blur на элементе;</li>-->
+<!--    <li><i>untouched: boolean</i> - чтение, возвращает логическое значение если было не было иницировано событие blur на элементе;</li>-->
+<!--    <li><i>valueChanges: Observable any></i> - чтение, подписка на стрим значения из элемента который возвращает новое значение из элемента-->
+<!--      при его изменении;-->
+<!--    </li>-->
+<!--    <li><i>statusChanges: Observable any></i> - чтение, подписка на стрим элемента который возвращает статус проверки всякий раз когда-->
+<!--      произошло изменение на элементе;-->
+<!--    </li>-->
+<!--    <li><i>updateOn: FormHooks</i> - чтение, сообщает о стратегии обновления элемента('change'| 'blur'| 'submit');</li>-->
+<!--    <li><i>root: AbstractControl</i> - чтение, извлекает предка верхнего уровня этого элемента;</li>-->
+
+<!--    <li><i>setValidators(newValidator: ValidatorFn | ValidatorFn[]): void</i> - метод, устанавливает синхронные валидаторы, который(-ые)-->
+<!--      будут применяться к элементу. Вызов данного метода перезаписывает все существующие синхронные валидаторы элемента. Когда-->
+<!--      добовляется/удаляется валидатор необходимо вызвать метод updateValueAndValidity(), чтобы новый валидатор вступил в силу;-->
+<!--    </li>-->
+<!--    <li><i>setAsyncValidators(newValidator: AsyncValidatorFn | AsyncValidatorFn[]): void</i> - метод, устанавливает асинхронный валидатор,-->
+<!--      который будет применять к элементу. Вызов данного метода перезаписывает все существующие асинхронные валидаторы элемента. Когда-->
+<!--      добовляется/удаляется валидатор необходимо вызвать метод updateValueAndValidity(), чтобы новый валидатор вступил в силу;-->
+<!--    </li>-->
+<!--    <li><i>clearValidators(): void</i> - метод, очищает список синхронных валидаторов у элемента. Когда добовляется/удаляется валидатор-->
+<!--      необходимо вызвать метод updateValueAndValidity(), чтобы новый валидатор вступил в силу;-->
+<!--    </li>-->
+<!--    <li>-->
+<!--      <i>clearAsyncValidators(): void</i> - метод, очищает список асинхронных валидаторов у элемента. Когда добовляется/удаляется валидатор-->
+<!--      необходимо вызвать метод updateValueAndValidity(), чтобы новый валидатор вступил в силу;-->
+<!--    </li>-->
+<!--    <li><i>markAsTouched(opts: onlySelf?: boolean;} = }): void</i> - метод, помечает элемент как touched. На элемент воздействуют события-->
+<!--      фокусировки и размытия, которые не изменяют значение;-->
+<!--    </li>-->
+<!--    <li><i>markAllAsTouched(): void</i> - метод, помечает все элементы и все дочерние элементы как touched;</li>-->
+<!--    <li><i>markAsUntouched(opts: onlySelf?: boolean; } = }): void</i> - метод, помечает элемент как untouched;</li>-->
+<!--    <li><i>markAsDirty(opts: onlySelf?: boolean; } = }): void</i> - метод, помечает элемент как dirty;</li>-->
+<!--    <li><i>markAsPristine(opts: onlySelf?: boolean; } = }): void</i> - метод, помечает элемент как pristine;</li>-->
+<!--    <li><i>markAsPending(opts: onlySelf?: boolean; emitEvent?: boolean; } = }): void</i> - метод, помечает элемент как pending;</li>-->
+
+<!--    <li><i>disable(opts: onlySelf?: boolean; emitEvent?: boolean; } = }): void</i> - метод, выключает элемент от проверок валидации и-->
+<!--      значение исключается из родительского элемента;-->
+<!--    </li>-->
+<!--    <li><i>enable(opts: onlySelf?: boolean; emitEvent?: boolean; } = }): void</i> - метод, включает элемент для проверки валидации и-->
+<!--      значение включено в родительский элемент;-->
+<!--    </li>-->
+<!--    <li><i>setParent(parent: FormGroup | FormArray): void</i> - метод, устанавливает нового родителя элемента;</li>-->
+<!--    <li><i>abstract setValue(value: any, options?: Object): void</i> - метод, устанавливает значение элемента;</li>-->
+<!--    <li><i>abstract patchValue(value: any, options?: Object): void</i> - метод, исправляет значение элемента;</li>-->
+<!--    <li><i>abstract reset(value?: any, options?: Object): void</i> - метод, сбрасывает(очищает) значение элемента;</li>-->
+<!--    <li><i>updateValueAndValidity(opts: onlySelf?: boolean; emitEvent?: boolean; } = }): void</i> - метод, пересчитываетзначение и статус-->
+<!--      проверки элемента;-->
+<!--    </li>-->
+<!--    <li><i>setErrors(errors: ValidationErrors, opts: emitEvent?: boolean; } = }): void</i> - метод, устанавливает ощибки в элементе формы-->
+<!--      при выполнение проверок вручную;-->
+<!--    </li>-->
+<!--    <li><i>get(path: string | (string | number)[]): AbstractControl | null</i> - метод, возвращает элемент по имени или по пути;</li>-->
+<!--    <li><i>getError(errorCode: string, path?: string | (string | number)[]): any</i> - метод, возвращает данные об ошибках элемента;</li>-->
+<!--    <li>-->
+<!--      <i>hasError(errorCode: string, path?: string | (string | number)[]): boolean</i> - метод, возвращает логическое значение присутствует-->
+<!--      ли ошибка в элементе;-->
+<!--    </li>-->
+
+<!--    <div [formGroup] = "this.fg">-->
+<!--      <div formGroupName = "fullName">-->
+<!--        <input type = "text" formControlName = "firstName">-->
+<!--        <input type = "text" formControlName = "lastName">-->
+<!--      </div>-->
+<!--      <input type = "number" formControlName = "age">-->
+
+<!--      <p>value: {{ this.fg.value | json }}</p>-->
+<!--      <p>validator: {{ this.fg.validator | json }}</p>-->
+<!--      <p>asyncValidator: {{ this.fg.asyncValidator | json }}</p>-->
+<!--      <p>status: {{ this.fg.status | json }}</p>-->
+<!--      <p>valid: {{ this.fg.valid | json }}</p>-->
+<!--      <p>invalid: {{ this.fg.invalid | json }}</p>-->
+<!--      <p>pending: {{ this.fg.pending | json }}</p>-->
+<!--      <p>disabled: {{ this.fg.disabled | json }}</p>-->
+<!--      <p>enabled: {{ this.fg.enabled | json }}</p>-->
+<!--      <p>errors: {{ this.fg.controls.age.errors | json }}</p>-->
+<!--      <p>pristine: {{ this.fg.controls.age.pristine | json }}</p>-->
+<!--      <p>dirty: {{ this.fg.controls.age.dirty | json }}</p>-->
+<!--      <p>touched: {{ this.fg.controls.age.touched | json }}</p>-->
+<!--      <p>untouched: {{ this.fg.controls.age.untouched | json }}</p>-->
+<!--      <p>updateOn: {{ this.fg.updateOn | json }}</p>-->
+
+<!--    </div>-->
+
+<!--  </ul>-->
+<!--</div>-->

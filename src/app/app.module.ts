@@ -70,6 +70,7 @@ import { RouterOutletComponent } from './directive/router-outlet/router-outlet.c
 import { AbstractControlDirectiveComponent } from './class/forms/abstract-control-directive/abstract-control-directive.component';
 import { ControlContainerComponent } from './class/forms/control-container/control-container.component';
 import { NgControlComponent } from './class/forms/ng-control/ng-control.component';
+import { AbstractControlComponent } from './class/forms/abstract-control/abstract-control.component';
 
 
 @NgModule({
@@ -141,6 +142,7 @@ import { NgControlComponent } from './class/forms/ng-control/ng-control.componen
     AbstractControlDirectiveComponent,
     ControlContainerComponent,
     NgControlComponent,
+    AbstractControlComponent,
   ],
   imports: [
     BrowserModule,
