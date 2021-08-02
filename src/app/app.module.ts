@@ -68,6 +68,7 @@ import { RouterLinkActiveComponent } from './directive/router-link-active/router
 import { RouterLinkWithHrefComponent } from './directive/router-link-with-href/router-link-with-href.component';
 import { RouterOutletComponent } from './directive/router-outlet/router-outlet.component';
 import { AbstractControlDirectiveComponent } from './class/forms/abstract-control-directive/abstract-control-directive.component';
+import { ControlContainerComponent } from './class/forms/control-container/control-container.component';
 
 
 @NgModule({
@@ -137,6 +138,7 @@ import { AbstractControlDirectiveComponent } from './class/forms/abstract-contro
     RouterLinkWithHrefComponent,
     RouterOutletComponent,
     AbstractControlDirectiveComponent,
+    ControlContainerComponent,
   ],
   imports: [
     BrowserModule,
