@@ -1,0 +1,54 @@
+<p><a [href] = "this.FormArray">FormArray</a> - класс расширяет абстрактный базовый класс AbstractControl, отслеживает состояние массива
+  FormControl. FormArray объединяет значения каждого дочернего элемента FormControl в массив. Он вычисляет свой статус дочерних элементов.
+  Например, если один из элементов FormControl в FormArray недействителен, весь массив становится недействительным.</p>
+
+<!--<ul>-->
+<!--  <li><i>controls: AbstractControl[]</i> - массив дочерних элементов. Каждому дочернему элементу присваивается индекс, в котором он-->
+<!--    зарегистрирован;-->
+<!--  </li>-->
+<!--  <li><i>length: number</i> - чтение, длинная FormArray;</li>-->
+<!--  <li><i>at(index: number): AbstractControl</i> - метод, возвращает элемент массива типа AbstractControl;</li>-->
+<!--  <li><i>push(control: AbstractControl, options?: emitEvent?: boolean; } = }): void</i> - метод, вставляет новый элемент AbstractControl-->
+<!--    в конец массива;-->
+<!--  </li>-->
+<!--  <li><i>insert(index: number, control: AbstractControl, options?: emitEvent?: boolean; } = }): void</i> - метод, вставляет новый элемент-->
+<!--    AbstractControl по индексу в массиве;-->
+<!--  </li>-->
+<!--  <li><i>removeAt(index: number, options?: emitEvent?: boolean; } = }): void</i> - метод, удаляет по заданному индексу в массиве-->
+<!--    AbstractControl;-->
+<!--  </li>-->
+<!--  <li><i>setControl(index: number, control: AbstractControl, options?: emitEvent?: boolean; } = }): void</i> - метод, заменяет существующий-->
+<!--    элемент AbstractControl по индексу в массиве;-->
+<!--  </li>-->
+<!--  <li><i>getRawValue(): any[]</i> - метод, возвращает совокупное значение элементов массива, включая все отключенные элементы;</li>-->
+<!--  <li><i>clear(options?: emitEvent?: boolean; } = }): void</i> - метод, удаляет все элементы AbstractControl из массива FormArray;</li>-->
+<!--  <li><i>setValue(value: any[], options?: onlySelf?: boolean; emitEvent?: boolean; } = }): void</i> - метод, ;</li>-->
+<!--  <li><i>patchValue(value: any[], options?: onlySelf?: boolean; emitEvent?: boolean; } = }): void</i> - метод, ;</li>-->
+<!--  <li><i>reset(value: any = [], options?: onlySelf?: boolean; emitEvent?: boolean; } = }): void</i> - метод, ;</li>-->
+<!--  <li><i>_syncPendingControls(): boolean</i> - метод, ;</li>-->
+<!--  <li><i>_forEachChild(cb: Function): void</i> - метод, ;</li>-->
+<!--  <li><i>_updateValue () </i> - метод, ;</li>-->
+<!--  <li><i>_anyControls(condition: Function): boolean</i> - метод, ;</li>-->
+<!--  <li><i>_allControlsDisabled () </i> - метод, .</li>-->
+
+<!--  <div [formGroup] = "this.fg">-->
+<!--    <div formArrayName = "formArray">-->
+<!--      <div *ngFor = "let controls of this.formArray.controls; index as i;">-->
+<!--        <input type = "text" [formControlName] = "i">-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <button (click)="this.showControls()">controls</button>-->
+<!--    <button (click)="this.showLenght()">length</button>-->
+<!--    <button (click)="this.getAt()">at()</button>-->
+<!--    <button (click)="this.pushControl()">push()</button>-->
+<!--    <button (click)="this.insertControl()">insert()</button>-->
+<!--    <button (click)="this.removeControl()">removeAt()</button>-->
+<!--    <button (click)="this.setControl()">setControl()</button>-->
+<!--    <button (click)="this.getRawValue()">getRawValue()</button>-->
+<!--    <button (click)="this.clearAllControls()">clear()</button>-->
+<!--    <button (click)="this.setValue()">setValue()</button>-->
+<!--    <button (click)="this.patchValue()">patchValue()</button>-->
+<!--    <button (click)="this.reset()">reset()</button>-->
+<!--  </div>-->
+
+<!--</ul>-->

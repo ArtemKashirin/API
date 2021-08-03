@@ -72,6 +72,7 @@ import { ControlContainerComponent } from './class/forms/control-container/contr
 import { NgControlComponent } from './class/forms/ng-control/ng-control.component';
 import { AbstractControlComponent } from './class/forms/abstract-control/abstract-control.component';
 import { FormControlComponent } from './class/forms/form-control/form-control.component';
+import { FormArrayComponent } from './class/forms/form-array/form-array.component';
 
 
 @NgModule({
@@ -145,6 +146,7 @@ import { FormControlComponent } from './class/forms/form-control/form-control.co
     NgControlComponent,
     AbstractControlComponent,
     FormControlComponent,
+    FormArrayComponent,
   ],
   imports: [
     BrowserModule,
