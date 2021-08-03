@@ -71,6 +71,7 @@ import { AbstractControlDirectiveComponent } from './class/forms/abstract-contro
 import { ControlContainerComponent } from './class/forms/control-container/control-container.component';
 import { NgControlComponent } from './class/forms/ng-control/ng-control.component';
 import { AbstractControlComponent } from './class/forms/abstract-control/abstract-control.component';
+import { FormControlComponent } from './class/forms/form-control/form-control.component';
 
 
 @NgModule({
@@ -143,6 +144,7 @@ import { AbstractControlComponent } from './class/forms/abstract-control/abstrac
     ControlContainerComponent,
     NgControlComponent,
     AbstractControlComponent,
+    FormControlComponent,
   ],
   imports: [
     BrowserModule,
