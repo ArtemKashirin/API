@@ -1,0 +1,54 @@
+<p><a [href] = "this.FormGroup">FormGroup</a> - класс расширяет абстрактный базовый класс AbstractControl, отслеживает значение и состояние
+  группы FormControl экземпляров. FormGroup объединяет значения каждого дочернего элемента FormControl в один объект с именем каждого
+  элемента FormControl в качестве ключа. Он вычисляет свой статус, проверяя каждый элемент FormControl. Если один из элементов FormControl
+  в группе недействителен, вся группа становится недействительной.</p>
+
+<!--<div>-->
+<!--  <ul>-->
+<!--    <li>-->
+<!--      <i>controls: [key: string]: AbstractControl; }</i> - коллекция дочерних элементов FormControl. Ключом для каждого ребенка является-->
+<!--      имя, под которым он зарегистрирован;-->
+<!--    </li>-->
+<!--    <li><i>registerControl(name: string, control: AbstractControl): AbstractControl</i> - метод, регистрирует элемент FormControl в-->
+<!--      коллекции элементов FormGroup;-->
+<!--    </li>-->
+<!--    <li><i>addControl(name: string, control: AbstractControl, options?: emitEvent?: boolean; } = }): void</i> - метод, добавьте элемент-->
+<!--      FormControl в эту FormGroup;-->
+<!--    </li>-->
+<!--    <li><i>removeControl(name: string, options?: emitEvent?: boolean; } = }): void</i> - метод, удаляет элемент FormControl из-->
+<!--      FormGroup;-->
+<!--    </li>-->
+<!--    <li><i>setControl(name: string, control: AbstractControl, options?: emitEvent?: boolean; } = }): void</i> - метод, добовляет-->
+<!--      FormControl в FormGroup;-->
+<!--    </li>-->
+<!--    <li><i>contains(controlName: string): boolean</i> - метод, возвращает логическое значение если элемент FormControl присутствует в-->
+<!--      FormGroup;-->
+<!--    </li>-->
+<!--    <li><i>getRawValue(): any</i> - метод, возвращает значения элементов FormControl в FormGroup;</li>-->
+
+<!--    <li><i>setValue(value: [key: string]: any; }, options?: onlySelf?: boolean; emitEvent?: boolean; } = }): void</i> - метод, ;</li>-->
+<!--    <li><i>patchValue(value: [key: string]: any; }, options?: onlySelf?: boolean; emitEvent?: boolean; } = }): void</i> - метод, ;</li>-->
+<!--    <li><i>reset(value?: any = }, options?: onlySelf?: boolean; emitEvent?: boolean; } = }): void</i> - метод, ;</li>-->
+<!--    <li><i>_syncPendingControls(): boolean</i> - метод, ;</li>-->
+<!--    <li><i>_forEachChild(cb: (v: any, k: string) => void): void</i> - метод, ;</li>-->
+<!--    <li><i>_updateValue(): void</i> - метод, ;</li>-->
+<!--    <li><i>_anyControls ()</i> - метод, ;</li>-->
+<!--    <li><i>_allControlsDisabled(): boolean</i> - метод, ;</li>-->
+<!--  </ul>-->
+
+
+<!--  <div [formGroup]="this.formGroup">-->
+<!--    <input type = "text" formControlName="firstName">-->
+<!--    <input type = "text" formControlName="lastName">-->
+<!--    <input type = "text" formControlName="age">-->
+<!--  </div>-->
+<!--  <button (click)="this.registerControl()">registerControl()</button>-->
+<!--  <button (click)="this.addControl()">addControl()</button>-->
+<!--  <button (click)="this.removeControl()">removeControl()</button>-->
+<!--  <button (click)="this.setControl()">setControl()</button>-->
+<!--  <button (click)="this.contains()">contains()</button>-->
+<!--  <button (click)="this.getRawValue()">getRawValue()</button>-->
+<!--  <button (click)="this.setValue()">setValue()</button>-->
+<!--  <button (click)="this.patchValue()">patchValue()</button>-->
+<!--  <button (click)="this.reset()">reset()</button>-->
+<!--</div>-->
