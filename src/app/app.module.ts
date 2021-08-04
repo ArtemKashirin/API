@@ -76,6 +76,7 @@ import { FormArrayComponent } from './class/forms/form-array/form-array.componen
 import { FormGroupComponent } from './class/forms/form-group/form-group.component';
 import { FormBuilderComponent } from './class/forms/form-builder/form-builder.component';
 import { ValidatorsComponent } from './class/forms/validators/validators.component';
+import { ChangeDetectorRefComponent } from './class/core/change-detector-ref/change-detector-ref.component';
 
 
 @NgModule({
@@ -153,6 +154,7 @@ import { ValidatorsComponent } from './class/forms/validators/validators.compone
     FormGroupComponent,
     FormBuilderComponent,
     ValidatorsComponent,
+    ChangeDetectorRefComponent,
   ],
   imports: [
     BrowserModule,
