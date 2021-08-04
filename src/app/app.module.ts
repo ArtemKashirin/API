@@ -78,6 +78,7 @@ import {FormBuilderComponent} from './class/forms/form-builder/form-builder.comp
 import {ValidatorsComponent} from './class/forms/validators/validators.component';
 import {ChangeDetectorRefComponent} from './class/core/change-detector-ref/change-detector-ref.component';
 import {ViewRefComponent} from './class/core/view-ref/view-ref.component';
+import { EmbeddedViewRefComponent } from './class/core/embedded-view-ref/embedded-view-ref.component';
 
 
 @NgModule({
@@ -157,6 +158,7 @@ import {ViewRefComponent} from './class/core/view-ref/view-ref.component';
     ValidatorsComponent,
     ChangeDetectorRefComponent,
     ViewRefComponent,
+    EmbeddedViewRefComponent,
   ],
   imports: [
     BrowserModule,
