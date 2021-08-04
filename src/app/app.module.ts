@@ -80,6 +80,7 @@ import {ChangeDetectorRefComponent} from './class/core/change-detector-ref/chang
 import {ViewRefComponent} from './class/core/view-ref/view-ref.component';
 import { EmbeddedViewRefComponent } from './class/core/embedded-view-ref/embedded-view-ref.component';
 import { ComponentFactoryComponent } from './class/core/component-factory/component-factory.component';
+import { ComponentFactoryResolverComponent } from './class/core/component-factory-resolver/component-factory-resolver.component';
 
 
 @NgModule({
@@ -161,6 +162,7 @@ import { ComponentFactoryComponent } from './class/core/component-factory/compon
     ViewRefComponent,
     EmbeddedViewRefComponent,
     ComponentFactoryComponent,
+    ComponentFactoryResolverComponent,
   ],
   imports: [
     BrowserModule,
