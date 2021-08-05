@@ -1,0 +1,53 @@
+<p><a [href] = "this.ViewContainerRef">ViewContainerRef</a> - абстрактный класс, представляет контейнер, в котором к компоненту можно
+  прикрепить одно или несколько представлений. Может содержать основные представления (созданные путем создания экземпляра компонента с
+  помощью createComponent() метода) и встроенные представления (созданные путем создания экземпляра объекта TemplateRef с помощью
+  createEmbeddedView() метода).</p>
+
+<!--<ul>-->
+<!--  <li><i>createEmbeddedView< C>(templateRef: TemplateRef< C>, context?: C, index?: number): EmbeddedViewRef< C></i> - метод, создает-->
+<!--    экземпляр встроенного представления и вставляет его в этот контейнер;-->
+<!--  </li>-->
+<!--  <li><i>createComponent< C>(componentFactory: ComponentFactory< C>, index?: number, injector?: Injector, projectableNodes?: any[][],-->
+<!--    ngModule?: NgModuleRef< any>): ComponentRef< C></i> - метод, создает экземпляр одного компонента и вставляет его представление хоста в-->
+<!--    этот контейнер;-->
+<!--  </li>-->
+
+<!--  <li><i>element: ElementRef</i> - чтение, элемент привязки, который указывает расположение этого контейнера в содержащем представлении.-->
+<!--    Каждый контейнер представления может иметь только один элемент привязки, а каждый элемент привязки может иметь только один контейнер-->
+<!--    представления;-->
+<!--  </li>-->
+<!--  <li><i>injector: Injector</i> - чтение, инжектор зависимостей для этого вида контейнера;</li>-->
+<!--  <li><i>length: number</i> - чтение, сообщает, сколько представлений в настоящее время прикреплено к этому контейнеру;</li>-->
+<!--  <li><i>clear(): void</i> - метод, уничтожает все представления в этом контейнере;</li>-->
+<!--  <li><i>get(index: number): ViewRef | null</i> - метод, получает представление из этого контейнера;</li>-->
+
+
+<!--  <li><i>insert(viewRef: ViewRef, index?: number): ViewRef</i> - метод, вставляет представление в этот контейнер;</li>-->
+<!--  <li><i>move(viewRef: ViewRef, currentIndex: number): ViewRef</i> - метод, перемещает представление в новое место в этом контейнере;</li>-->
+<!--  <li><i>indexOf(viewRef: ViewRef): number</i> - метод, возвращает индекс представления в текущем контейнере;</li>-->
+<!--  <li><i>remove(index?: number): void</i> - метод, уничтожает представление, прикрепленное к этому контейнеру;</li>-->
+<!--  <li><i>detach(index?: number): ViewRef | null</i> - метод, отсоединяет представление от этого контейнера, не разрушая его.</li>-->
+<!--</ul>-->
+
+<!--<button (click) = "this.createEmbeddedView()">createEmbeddedView()</button>-->
+<!--<button (click) = "this.createComponent()">createComponent()</button>-->
+<!--<button (click) = "this.element()">element</button>-->
+<!--<button (click) = "this.injector()">injector</button>-->
+<!--<button (click) = "this.length()">length</button>-->
+<!--<button (click) = "this.clear()">clear()</button>-->
+<!--<button (click) = "this.get()">get()</button>-->
+
+
+<!--<button (click) = "this.insert()">insert()</button>-->
+<!--<button (click) = "this.move()">move()</button>-->
+<!--<button (click) = "this.remove()">remove()</button>-->
+<!--<button (click) = "this.detach()">detach()</button>-->
+<!--<ng-template #tr>-->
+
+<!--  <p >123</p>-->
+
+<!--</ng-template>-->
+
+<!--<ng-container #asd>-->
+
+<!--</ng-container>-->
