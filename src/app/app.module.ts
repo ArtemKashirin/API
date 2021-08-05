@@ -81,6 +81,7 @@ import {ViewRefComponent} from './class/core/view-ref/view-ref.component';
 import { EmbeddedViewRefComponent } from './class/core/embedded-view-ref/embedded-view-ref.component';
 import { ComponentFactoryComponent } from './class/core/component-factory/component-factory.component';
 import { ComponentFactoryResolverComponent } from './class/core/component-factory-resolver/component-factory-resolver.component';
+import { TemplateRefComponent } from './class/core/template-ref/template-ref.component';
 
 
 @NgModule({
@@ -163,6 +164,7 @@ import { ComponentFactoryResolverComponent } from './class/core/component-factor
     EmbeddedViewRefComponent,
     ComponentFactoryComponent,
     ComponentFactoryResolverComponent,
+    TemplateRefComponent,
   ],
   imports: [
     BrowserModule,
