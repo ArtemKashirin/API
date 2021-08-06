@@ -86,6 +86,7 @@ import { ComponentRefComponent } from './class/core/component-ref/component-ref.
 import { ViewContainerRefComponent } from './class/core/view-container-ref/view-container-ref.component';
 import { Renderer2Component } from './class/core/renderer2/renderer2.component';
 import { ElementRefComponent } from './class/core/element-ref/element-ref.component';
+import { ErrorHandlerComponent } from './class/core/error-handler/error-handler.component';
 
 
 @NgModule({
@@ -173,6 +174,7 @@ import { ElementRefComponent } from './class/core/element-ref/element-ref.compon
     ViewContainerRefComponent,
     Renderer2Component,
     ElementRefComponent,
+    ErrorHandlerComponent,
   ],
   imports: [
     BrowserModule,
