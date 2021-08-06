@@ -1,0 +1,10 @@
+<p><a [href] = "this.HttpResponseBase">HttpResponseBase</a> - базовый абстрактный класс от которого наследуются HttpErrorResponse,
+  HttpHeaderResponse, HttpResponse.</p>
+<ul>
+  <li><i>headers: HttpHeaders</i> - чтение, все заголовки ответов;</li>
+  <li><i>status: number</i> - чтение, код состояния ответа;</li>
+  <li><i>statusText: string</i> - чтение, текстовое описание кода состояния ответа, по умолчанию ОК;</li>
+  <li><i>url: string | null</i> - чтение, URL-адрес полученного ресурса или null, если он недоступен;</li>
+  <li><i>ok: boolean</i> - чтение, попадает ли код состояния в диапазон 2xx;</li>
+  <li><i>type: HttpEventType.Response | HttpEventType.ResponseHeader</i> - чтение, тип ответа, суженный до полного ответа или заголовка.</li>
+</ul>
