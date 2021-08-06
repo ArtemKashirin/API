@@ -1,0 +1,94 @@
+<p><a [href] = "this.Renderer2">Renderer2</a> - абстрактный класс, позволяет манипулировать элементами приложения без необходимости
+  непосредственно касаться DOM элементов. </p>
+
+<!--<ul>-->
+<!--  <li><i>data: [key: string]: any; }</i> - чтение, используется для хранения произвольных данных, определенных разработчиком;</li>-->
+<!--  <li><i>destroy(): void</i> - метод, уничтожает DOM элемент или элемент хоста;</li>-->
+<!--  <li><i>createElement(name: string, namespace?: string): any</i> - метод, создает экземпляр хост-элемента;</li>-->
+<!--  <li><i>createComment(value: string): any</i> - метод, добавляет комментарий к DOM элементу;</li>-->
+<!--  <li><i>createText(value: string): any</i> - метод, добовляет текст в DOM элемент;</li>-->
+<!--  <li><i>appendChild(parent: any, newChild: any): void</i> - метод, добовляет дочерний элемент к родителю;</li>-->
+<!--  <li><i>insertBefore(parent: any, newChild: any, refChild: any, isMove?: boolean): void</i> - метод, вставляет дочерний элемент позади-->
+<!--    родительского элемента;</li>-->
+<!--  <li><i>removeChild(parent: any, oldChild: any, isHostElement?: boolean): void</i> - метод, удаляет дочерний элемент;</li>-->
+<!--  <li><i>selectRootElement(selectorOrNode: any, preserveContent?: boolean): any</i> - метод, подготавливает элемент к загрузке в качестве-->
+<!--    корневого элемента;</li>-->
+<!--  <li><i>parentNode(node: any): any</i> - метод, возвращает родительский элемент;</li>-->
+<!--  <li><i>nextSibling(node: any): any</i> - метод, возвращает следующий родственный узел;</li>-->
+<!--  <li><i>setAttribute(el: any, name: string, value: string, namespace?: string): void</i> - метод, устанвливает атрибут для элеммента;</li>-->
+<!--  <li><i>removeAttribute(el: any, name: string, namespace?: string): void</i> - метод, удаляет атрибут у элемента;</li>-->
+<!--  <li><i>addClass(el: any, name: string): void</i> - метод, добовляет класс элементу;</li>-->
+<!--  <li><i>removeClass(el: any, name: string): void</i> - метод, удаляет класс у элемента;</li>-->
+<!--  <li><i>setStyle(el: any, style: string, value: any, flags?: RendererStyleFlags2): void</i> - метод, устанавливает CSS стиль элементу;</li>-->
+<!--  <li><i>removeStyle(el: any, style: string, flags?: RendererStyleFlags2): void</i> - метод, удаляет CSS стиль у элемента;</li>-->
+<!--  <li><i>setProperty(el: any, name: string, value: any): void</i> - метод, устанавливает значение свойства у элемента;</li>-->
+<!--  <li><i>setValue(node: any, value: string): void</i> - метод, устанавливает значение элемента;</li>-->
+<!--  <li><i>listen(target: any, eventName: string, callback: (event: any) => boolean | void): () => void</i> - метод, запускает прослушивание-->
+<!--    события на элементе.</li>-->
+<!--</ul>-->
+
+<!--<div>-->
+<!--  <ul #parent>-->
+<!--    <li #data1>data-->
+<!--      <button (click)="this.data()">data</button>-->
+<!--    </li>-->
+<!--    <li #destroy1>destroy()-->
+<!--      <button (click)="this.destroy()">destroy()</button>-->
+<!--    </li>-->
+<!--    <li #createElement1>createElement()-->
+<!--      <button (click)="this.createElement()">createElement()</button>-->
+<!--    </li>-->
+<!--    <li #createComment1>createComment()-->
+<!--      <button (click)="this.createComment()">createComment()</button>-->
+<!--    </li>-->
+<!--    <li #createText1>createText()-->
+<!--      <button (click)="this.createText()">createText()</button>-->
+<!--    </li>-->
+<!--    <li #appendChild1>appendChild()-->
+<!--      <button (click)="this.appendChild()">appendChild()</button>-->
+<!--    </li>-->
+<!--    <li #insertBefore1>insertBefore()-->
+<!--      <button (click)="this.insertBefore()">insertBefore()</button>-->
+<!--    </li>-->
+<!--    <li #removeChild1>removeChild()-->
+<!--      <button (click)="this.removeChild()">removeChild()</button>-->
+<!--    </li>-->
+<!--    <li #selectRootElement1>selectRootElement()-->
+<!--      <button (click)="this.selectRootElement()">selectRootElement()</button>-->
+<!--    </li>-->
+<!--    <li #parentNode1>parentNode()-->
+<!--      <button (click)="this.parentNode()">parentNode()</button>-->
+<!--    </li>-->
+<!--    <li #nextSibling1>nextSibling()-->
+<!--      <button (click)="this.nextSibling()">nextSibling()</button>-->
+<!--    </li>-->
+<!--    <li #setAttribute1>setAttribute()-->
+<!--      <button (click)="this.setAttribute()">setAttribute()</button>-->
+<!--    </li>-->
+<!--    <li #removeAttribute1>removeAttribute()-->
+<!--      <button (click)="this.removeAttribute()">removeAttribute()</button>-->
+<!--    </li>-->
+<!--    <li #addClass1>addClass()-->
+<!--      <button (click)="this.addClass()">addClass()</button>-->
+<!--    </li>-->
+<!--    <li #removeClass1>removeClass()-->
+<!--      <button (click)="this.removeClass()">removeClass()</button>-->
+<!--    </li>-->
+<!--    <li #setStyle1>setStyle()-->
+<!--      <button (click)="this.setStyle()">setStyle()</button>-->
+<!--    </li>-->
+<!--    <li #removeStyle1>removeStyle()-->
+<!--      <button (click)="this.removeStyle()">removeStyle()</button>-->
+<!--    </li>-->
+<!--    <li #setProperty1>setProperty()-->
+<!--      <button (click)="this.setProperty()">setProperty()</button>-->
+<!--    </li>-->
+<!--    <li #setValue1>setValue()-->
+<!--      <button (click)="this.setValue()">setValue()</button>-->
+<!--    </li>-->
+<!--    <li #listen1>listen()-->
+<!--      <button (click)="this.listen()">listen()</button>-->
+<!--    </li>-->
+
+<!--  </ul>-->
+<!--</div>-->
