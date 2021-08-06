@@ -92,6 +92,7 @@ import { EventEmitterComponent } from './class/core/event-emitter/event-emitter.
 import { HttpResponseBaseComponent } from './class/http/http-response-base/http-response-base.component';
 import { HttpHeaderResponseComponent } from './class/http/http-header-response/http-header-response.component';
 import { HttpResponseComponent } from './class/http/http-response/http-response.component';
+import { HttpErrorResponseComponent } from './class/http/http-error-response/http-error-response.component';
 
 
 @NgModule({
@@ -185,6 +186,7 @@ import { HttpResponseComponent } from './class/http/http-response/http-response.
     HttpResponseBaseComponent,
     HttpHeaderResponseComponent,
     HttpResponseComponent,
+    HttpErrorResponseComponent,
   ],
   imports: [
     BrowserModule,
