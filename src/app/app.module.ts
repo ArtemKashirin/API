@@ -91,6 +91,7 @@ import { SimpleChangeComponent } from './class/core/simple-change/simple-change.
 import { EventEmitterComponent } from './class/core/event-emitter/event-emitter.component';
 import { HttpResponseBaseComponent } from './class/http/http-response-base/http-response-base.component';
 import { HttpHeaderResponseComponent } from './class/http/http-header-response/http-header-response.component';
+import { HttpResponseComponent } from './class/http/http-response/http-response.component';
 
 
 @NgModule({
@@ -183,6 +184,7 @@ import { HttpHeaderResponseComponent } from './class/http/http-header-response/h
     EventEmitterComponent,
     HttpResponseBaseComponent,
     HttpHeaderResponseComponent,
+    HttpResponseComponent,
   ],
   imports: [
     BrowserModule,
