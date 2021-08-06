@@ -85,6 +85,7 @@ import { TemplateRefComponent } from './class/core/template-ref/template-ref.com
 import { ComponentRefComponent } from './class/core/component-ref/component-ref.component';
 import { ViewContainerRefComponent } from './class/core/view-container-ref/view-container-ref.component';
 import { Renderer2Component } from './class/core/renderer2/renderer2.component';
+import { ElementRefComponent } from './class/core/element-ref/element-ref.component';
 
 
 @NgModule({
@@ -171,6 +172,7 @@ import { Renderer2Component } from './class/core/renderer2/renderer2.component';
     ComponentRefComponent,
     ViewContainerRefComponent,
     Renderer2Component,
+    ElementRefComponent,
   ],
   imports: [
     BrowserModule,
