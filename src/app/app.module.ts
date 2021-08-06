@@ -90,6 +90,7 @@ import { ErrorHandlerComponent } from './class/core/error-handler/error-handler.
 import { SimpleChangeComponent } from './class/core/simple-change/simple-change.component';
 import { EventEmitterComponent } from './class/core/event-emitter/event-emitter.component';
 import { HttpResponseBaseComponent } from './class/http/http-response-base/http-response-base.component';
+import { HttpHeaderResponseComponent } from './class/http/http-header-response/http-header-response.component';
 
 
 @NgModule({
@@ -181,6 +182,7 @@ import { HttpResponseBaseComponent } from './class/http/http-response-base/http-
     SimpleChangeComponent,
     EventEmitterComponent,
     HttpResponseBaseComponent,
+    HttpHeaderResponseComponent,
   ],
   imports: [
     BrowserModule,
