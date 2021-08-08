@@ -1,0 +1,21 @@
+<p><a [href] = "this.HttpRequest">HttpRequest</a> - класс, исходящий HTTP-запрос с необязательным типизированным телом. HttpRequest
+  представляет исходящий запрос, включая URL-адрес, метод, заголовки, тело и другие параметры конфигурации запроса. Предполагается, что
+  экземпляры неизменяемы. Чтобы изменить HttpRequest,  следует использовать метод clone.</p>
+
+<!--<ul>-->
+<!--  <li><i>body: T | null</i> - чтение, тело запроса или, null если оно не задано;</li>-->
+<!--  <li><i>headers: HttpHeaders</i> - чтение, исходящие заголовки для этого запроса;</li>-->
+<!--  <li><i>context: HttpContext</i> - чтение, общий и изменяемый контекст, который может использоваться перехватчиками;</li>-->
+<!--  <li><i>reportProgress: boolean</i> - чтение, следует ли делать этот запрос таким образом, чтобы отображались события выполнения;</li>-->
+<!--  <li><i>withCredentials: boolean</i> - чтение, следует ли отправлять этот запрос с исходящими учетными данными (куки);</li>-->
+<!--  <li><i>responseType: 'arraybuffer' | 'blob' | 'json' | 'text'</i> - чтение, ожидаемый тип ответа сервера;</li>-->
+<!--  <li><i>method: string</i> - чтение, метод исходящего HTTP-запроса;</li>-->
+<!--  <li><i>params: HttpParams</i> - чтение, параметры исходящего URL;</li>-->
+<!--  <li><i>urlWithParams: string</i> - чтение, исходящий URL со всеми заданными параметрами URL;</li>-->
+<!--  <li><i>serializeBody(): ArrayBuffer | Blob | FormData | string | null</i> - метод, преобразуйте тело произвольной формы в сериализованный-->
+<!--    формат, подходящий для передачи на сервер;</li>-->
+<!--  <li><i>detectContentTypeHeader(): string | null</i> - метод, изучит тело и попытайтесь определить для него подходящий MIME-тип;</li>-->
+<!--  <li><i>clone(update:  headers?: HttpHeaders; context?: HttpContext; reportProgress?: boolean; params?: HttpParams; responseType?:-->
+<!--    "arraybuffer" | "blob" | "text" | "json"; withCredentials?: boolean; body?: any; method?: string; url?: string; setHeaders?:  ...; };-->
+<!--    setParams?:  ...; }; } = }): HttpRequest< any></i> - метод, </li>-->
+<!--</ul>-->
