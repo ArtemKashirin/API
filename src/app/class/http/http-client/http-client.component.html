@@ -1,0 +1,42 @@
+<p><a [href] = "this.HttpClient">HttpClient</a> - класс, выполняет HTTP-запросы. Эта служба доступна как инъекционный класс с методами для
+  выполнения HTTP-запросов. Каждый метод запроса имеет несколько подписей, а тип возвращаемого значения зависит от вызываемой подписи
+  (в основном, значений observe и responseType).</p>
+
+<!--<ul>-->
+<!--  <li><i> request(first: string | HttpRequest< any>, url?: string, options:  body?: any; headers?: HttpHeaders |  [header: string]: string-->
+<!--    | string[]; }; context?: HttpContext; observe?: "body" | "events" | "response"; params?: HttpParams |  [param: string]: string | number-->
+<!--    | boolean | ReadonlyArray<...>; }; reportProgress?: boolean; responseType?: "arraybuffer" | ... 2 more ... | "json"... = }): Observable-->
+<!--    < any></i> - метод, возвращает объект Observable для общего HTTP-запроса, который при подписке запускает запрос через цепочку-->
+<!--    зарегистрированных перехватчиков на сервер;</li>-->
+<!--  <li><i> delete(url: string, options:  headers?: HttpHeaders |  [header: string]: string | string[]; }; context?: HttpContext; observe?:-->
+<!--    "body" | "events" | "response"; params?: HttpParams |  [param: string]: string | number | boolean | ReadonlyArray< string | ... 1 more-->
+<!--    ... | boolean>; }; reportProgress?: boolean; responseType?: "arraybuffer" | ... 2... = }): Observable< any></i> - метод, возвращает-->
+<!--    объект Observable при подписке вызывает выполнение настроенного DELETE запроса на сервере;</li>-->
+<!--  <li><i>  get(url: string, options:  headers?: HttpHeaders |  [header: string]: string | string[]; }; context?: HttpContext; observe?:-->
+<!--    "body" | "events" | "response"; params?: HttpParams |  [param: string]: string | number | boolean | ReadonlyArray< string | ...-->
+<!--    1 more ... | boolean>; }; reportProgress?: boolean; responseType?: "arraybuffer" | ... 2... = }): Observable< any></i> - метод,-->
+<!--    возвращает объект Observable при подписке вызывает выполнение настроенного GET запроса на сервере;</li>-->
+<!--  <li><i> head(url: string, options:  headers?: HttpHeaders |  [header: string]: string | string[]; }; context?: HttpContext; observe?:-->
+<!--    "body" | "events" | "response"; params?: HttpParams |  [param: string]: string | number | boolean | ReadonlyArray< string | ... 1 more-->
+<!--    ... | boolean>; }; reportProgress?: boolean; responseType?: "arraybuffer" | ... 2... = }): Observable< any></i> - метод, возвращает-->
+<!--    объект Observable при подписке вызывает выполнение настроенного HEAD запроса на сервере. HEADМетод возвращает метаинформацию о ресурсе-->
+<!--    без передачи самого ресурса;</li>-->
+<!--  <li><i>jsonp< T>(url: string, callbackParam: string): Observable< T></i> - метод, возвращает объект Observable при подписке вызывает JSONP-->
+<!--    отправку запроса со специальным методом через конвейер перехватчика;</li>-->
+<!--  <li><i> patch(url: string, body: any, options:  headers?: HttpHeaders |  [header: string]: string | string[]; }; context?: HttpContext;-->
+<!--    observe?: "body" | "events" | "response"; params?: HttpParams |  [param: string]: string | number | boolean | ReadonlyArray< string |-->
+<!--    ... 1 more ... | boolean>; }; reportProgress?: boolean; responseType?: "arraybuffer" | ... 2... = }): Observable< any></i> - метод,-->
+<!--    возвращает объект Observable при подписке вызывает выполнение настроенного PATCH запроса на сервере;</li>-->
+<!--  <li><i> options(url: string, options:  headers?: HttpHeaders |  [header: string]: string | string[]; }; context?: HttpContext; observe?:-->
+<!--    "body" | "events" | "response"; params?: HttpParams |  [param: string]: string | number | boolean | ReadonlyArray< string | ... 1-->
+<!--    more ... | boolean>; }; reportProgress?: boolean; responseType?: "arraybuffer" | ... 2... = }): Observable< any></i> - метод, возвращает-->
+<!--    объект Observable при подписке вызывает выполнение настроенного OPTIONS запроса на сервере;</li>-->
+<!--  <li><i> post(url: string, body: any, options:  headers?: HttpHeaders |  [header: string]: string | string[]; }; context?: HttpContext;-->
+<!--    observe?: "body" | "events" | "response"; params?: HttpParams |  [param: string]: string | number | boolean | ReadonlyArray< string |-->
+<!--    ... 1 more ... | boolean>; }; reportProgress?: boolean; responseType?: "arraybuffer" | ... 2... = }): Observable< any></i> - метод,-->
+<!--    возвращает объект Observable при подписке вызывает выполнение настроенного POST запроса на сервере;</li>-->
+<!--  <li><i>put(url: string, body: any, options:  headers?: HttpHeaders |  [header: string]: string | string[]; }; context?: HttpContext;-->
+<!--    observe?: "body" | "events" | "response"; params?: HttpParams |  [param: string]: string | number | boolean | ReadonlyArray< string |-->
+<!--    ... 1 more ... | boolean>; }; reportProgress?: boolean; responseType?: "arraybuffer" | ... 2... = }): Observable< any></i> - метод,-->
+<!--    возвращает объект Observable при подписке вызывает выполнение настроенного PUT запроса на сервере;</li>-->
+<!--</ul>-->

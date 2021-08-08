@@ -93,6 +93,8 @@ import { HttpResponseBaseComponent } from './class/http/http-response-base/http-
 import { HttpHeaderResponseComponent } from './class/http/http-header-response/http-header-response.component';
 import { HttpResponseComponent } from './class/http/http-response/http-response.component';
 import { HttpErrorResponseComponent } from './class/http/http-error-response/http-error-response.component';
+import { HttpClientComponent } from './class/http/http-client/http-client.component';
+import {HttpClientModule} from "@angular/common/http";
 
 
 @NgModule({
@@ -187,12 +189,14 @@ import { HttpErrorResponseComponent } from './class/http/http-error-response/htt
     HttpHeaderResponseComponent,
     HttpResponseComponent,
     HttpErrorResponseComponent,
+    HttpClientComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
