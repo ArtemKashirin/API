@@ -96,6 +96,7 @@ import { HttpErrorResponseComponent } from './class/http/http-error-response/htt
 import { HttpClientComponent } from './class/http/http-client/http-client.component';
 import {HttpClientModule} from "@angular/common/http";
 import { HttpRequestComponent } from './class/http/http-request/http-request.component';
+import { HttpHeadersComponent } from './class/http/http-headers/http-headers.component';
 
 
 @NgModule({
@@ -192,6 +193,7 @@ import { HttpRequestComponent } from './class/http/http-request/http-request.com
     HttpErrorResponseComponent,
     HttpClientComponent,
     HttpRequestComponent,
+    HttpHeadersComponent,
   ],
   imports: [
     BrowserModule,
