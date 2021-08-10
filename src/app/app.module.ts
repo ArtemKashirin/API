@@ -99,6 +99,7 @@ import { HttpRequestComponent } from './class/http/http-request/http-request.com
 import { HttpHeadersComponent } from './class/http/http-headers/http-headers.component';
 import { HttpParamsComponent } from './class/http/http-params/http-params.component';
 import { RouteComponent } from './class/router/route/route.component';
+import { RouterComponent } from './class/router/router/router.component';
 
 
 @NgModule({
@@ -198,6 +199,7 @@ import { RouteComponent } from './class/router/route/route.component';
     HttpHeadersComponent,
     HttpParamsComponent,
     RouteComponent,
+    RouterComponent,
   ],
   imports: [
     BrowserModule,
