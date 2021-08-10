@@ -98,6 +98,7 @@ import {HttpClientModule} from "@angular/common/http";
 import { HttpRequestComponent } from './class/http/http-request/http-request.component';
 import { HttpHeadersComponent } from './class/http/http-headers/http-headers.component';
 import { HttpParamsComponent } from './class/http/http-params/http-params.component';
+import { RouteComponent } from './class/router/route/route.component';
 
 
 @NgModule({
@@ -196,6 +197,7 @@ import { HttpParamsComponent } from './class/http/http-params/http-params.compon
     HttpRequestComponent,
     HttpHeadersComponent,
     HttpParamsComponent,
+    RouteComponent,
   ],
   imports: [
     BrowserModule,
