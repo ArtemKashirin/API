@@ -100,6 +100,11 @@ import { HttpHeadersComponent } from './class/http/http-headers/http-headers.com
 import { HttpParamsComponent } from './class/http/http-params/http-params.component';
 import { RouteComponent } from './class/router/route/route.component';
 import { RouterComponent } from './class/router/router/router.component';
+import { ActivatedRouteComponent } from './class/router/activated-route/activated-route.component';
+import { HomeComponent } from './class/router/activated-route/home/home.component';
+import { AboutComponent } from './class/router/activated-route/about/about.component';
+import { ContactsComponent } from './class/router/activated-route/contacts/contacts.component';
+import { LinksComponent } from './class/router/activated-route/links/links.component';
 
 
 @NgModule({
@@ -200,6 +205,11 @@ import { RouterComponent } from './class/router/router/router.component';
     HttpParamsComponent,
     RouteComponent,
     RouterComponent,
+    ActivatedRouteComponent,
+    HomeComponent,
+    AboutComponent,
+    ContactsComponent,
+    LinksComponent,
   ],
   imports: [
     BrowserModule,
