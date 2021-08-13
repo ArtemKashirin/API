@@ -106,6 +106,7 @@ import { AboutComponent } from './class/router/activated-route/about/about.compo
 import { ContactsComponent } from './class/router/activated-route/contacts/contacts.component';
 import { LinksComponent } from './class/router/activated-route/links/links.component';
 import { RouterEventComponent } from './class/router/router-event/router-event.component';
+import { RouterStateComponent } from './class/router/router-state/router-state.component';
 
 
 @NgModule({
@@ -212,6 +213,7 @@ import { RouterEventComponent } from './class/router/router-event/router-event.c
     ContactsComponent,
     LinksComponent,
     RouterEventComponent,
+    RouterStateComponent,
   ],
   imports: [
     BrowserModule,
