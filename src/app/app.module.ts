@@ -108,6 +108,7 @@ import { LinksComponent } from './class/router/activated-route/links/links.compo
 import { RouterEventComponent } from './class/router/router-event/router-event.component';
 import { RouterStateComponent } from './class/router/router-state/router-state.component';
 import { RouterStateSnapshotComponent } from './class/router/router-state-snapshot/router-state-snapshot.component';
+import { ActivatedRouteSnapshotComponent } from './class/router/activated-route-snapshot/activated-route-snapshot.component';
 
 
 @NgModule({
@@ -216,6 +217,7 @@ import { RouterStateSnapshotComponent } from './class/router/router-state-snapsh
     RouterEventComponent,
     RouterStateComponent,
     RouterStateSnapshotComponent,
+    ActivatedRouteSnapshotComponent,
   ],
   imports: [
     BrowserModule,
