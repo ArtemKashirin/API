@@ -107,6 +107,7 @@ import { ContactsComponent } from './class/router/activated-route/contacts/conta
 import { LinksComponent } from './class/router/activated-route/links/links.component';
 import { RouterEventComponent } from './class/router/router-event/router-event.component';
 import { RouterStateComponent } from './class/router/router-state/router-state.component';
+import { RouterStateSnapshotComponent } from './class/router/router-state-snapshot/router-state-snapshot.component';
 
 
 @NgModule({
@@ -214,6 +215,7 @@ import { RouterStateComponent } from './class/router/router-state/router-state.c
     LinksComponent,
     RouterEventComponent,
     RouterStateComponent,
+    RouterStateSnapshotComponent,
   ],
   imports: [
     BrowserModule,
