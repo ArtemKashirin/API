@@ -105,6 +105,7 @@ import { HomeComponent } from './class/router/activated-route/home/home.componen
 import { AboutComponent } from './class/router/activated-route/about/about.component';
 import { ContactsComponent } from './class/router/activated-route/contacts/contacts.component';
 import { LinksComponent } from './class/router/activated-route/links/links.component';
+import { RouterEventComponent } from './class/router/router-event/router-event.component';
 
 
 @NgModule({
@@ -210,6 +211,7 @@ import { LinksComponent } from './class/router/activated-route/links/links.compo
     AboutComponent,
     ContactsComponent,
     LinksComponent,
+    RouterEventComponent,
   ],
   imports: [
     BrowserModule,
